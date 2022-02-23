@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
 
@@ -23,6 +24,7 @@ header img{
   width:5rem;
   height:2rem;
 }
+
 header .nav ul{
   display: flex;
   align-items: center;
@@ -82,7 +84,7 @@ border-radius:9px;
   background-color:#0078D4;
   height:50px;
   text-align: center;
-  padding: 1rem;
+  padding: 1rem; 
   color:white;
   font-size: 14px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -90,8 +92,227 @@ border-radius:9px;
 .heading h3:hover{
   text-decoration: underline;
 }
+.banner{
+  background-image:url("https://azurecomcdn.azureedge.net/cvt-374bb9e55c52c54a3c8ef40a8d69bc4d412cea2c7459a373e4b63ce88be37ad7/images/page/home/hero-desktop.webp");
+  height:75vh;
+  background-size: cover;
+  
+}
+.text{
+  padding: 5rem 10rem ;
+  
+}
+.pre-heading1{
+  color: #50E6ff;
+}
+.pre-heading2{
+  color: white;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pre-para{
+  color: white;
+  font: size 18px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn2{
+color:black;
+border:1px solid #6f9e02;
+border-radius: 1rem;
+background-color: #89C409;
+font-size: 14px;
+padding: 1rem;
+display: inline-block;
+}
+.btn2:hover{
+  text-decoration: underline;
+}
+.card{
+  margin:1rem;
+  box-shadow:0 2px 5px rgb(0 0 0 / 14%); 
 
+  
+}
+.card h1{
+  padding:10px;
 
+  color: #1A1A1F;
+  font-size:24px;
+}
+.card img{
+  width:10rem;
+  height:10rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.card h3{
+  color:#0062AD;
+}
+.card h3:hover{
+  text-decoration: underline;
+}
+.card p{
+  color: #4c4c51;
+  margin:1rem ;
+}
+
+.wrapper{
+  padding:1rem;
+  margin-left: 14rem;
+  background-color: #ffff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  
+
+  }
+  .wrap-wr{
+  display: flex;
+ 
+  
+
+  }
+  .wrap{
+    margin:1.rem;
+    padding:10px;
+    
+
+  
+   }
+
+  .pre-card{
+    margin-top: -3rem;
+    font-size:1.5rem;
+    margin-left: 10rem;
+    padding: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: normal;
+  }
+  .card-container{
+
+    border-radius: 2rem;
+    height: 20rem;
+    
+    justify-content: space-between;
+    align-items: center;
+    max-width: 550px;
+    }
+    .header-bottom{
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+       }
+       .btn3{
+         color:#0062ad;
+         border: 1px solid #0078d4;
+         font-size: 14px;
+         padding: 10px 16px;
+         
+       }
+       .btn3:hover{
+         background-color: #0062ad;
+         color: white;
+         text-decoration: underline;
+       }
+       .section{
+         background-color:#f8f9fa;
+       }
+       .section-heading{
+         font-size: 15px;
+         margin-left: 10rem;
+         padding: 3rem;
+
+         
+         
+         
+       }
+       .section-text{
+         color:#4c4c51;
+         line-height: 4rem;
+         font-size: 14px;
+         margin-left: 15rem;
+       }
+       .section-text:hover{
+         text-decoration: underline;
+       }
+       .see{
+         color:#0062AD;
+       }
+       .explore{
+         display: flex;
+         background-color:#f4f5f6;
+         font-size: 12px;
+         padding: 20px 20px;
+         line-height: 2rem;
+         color: #1A1A1F;
+         height:90%;
+         max-width:70%;
+         margin-left: 8rem;
+       }
+       .explore-text{
+         margin-right: 3rem;
+
+         
+       }
+       .explore-coloum {
+         margin: 3rem;
+       }
+       .explore-row{
+         padding:1rem;
+       }
+
+       .product-btn{
+         width: 200px;
+         height: 2rem;
+         padding-right:3rem;
+         
+         color: #1A1A1F;
+         background-color: #f4f5f6;
+         text-align: center;
+        
+       }
+       .products{
+         display: flex;
+         
+         width: 70%;
+         height:50rem;
+         background-color:#f4f5f6;
+         margin-top: 1rem;
+         margin-left: 5rem;
+         line-height: 2rem;
+         font-size:12px;
+        
+        }
+        .pro-row{
+          padding: 3rem;
+        }
+       .Pro-card img{
+         width: 50px;
+       }
+       .pro-card2 img{
+         width:50px;
+       }
+       .pro-card3 img{
+         width:50px;
+       }
+    
+    
+        
+         
+      
+        
+  
+        
+        
+
+       
+
+       
+
+  
 
 
 

@@ -4,6 +4,8 @@ import { VscSearch } from "react-icons/vsc";
 import azureIcon from "../assets/microsofticon.svg";
 function Navbar() {
   return (
+   
+  
   
       <header>
           <div className="head">
@@ -81,6 +83,7 @@ function Navbar() {
         </ul>
         </div>
           </div>
+          
          
           </header>
           

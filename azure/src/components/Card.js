@@ -1,12 +1,15 @@
 import React from "react";
 
-function Card(){
+
+function Card({imgsrc, heading,p }){
     return(
-        <div>
-            
-            
-            
+        <div className="card-container">
+        <div className="card">
+          <img src={imgsrc}/>
+            <h3>{heading}</h3>
+            <p>{p}</p>
         </div>
+            </div>
     )
 }
 

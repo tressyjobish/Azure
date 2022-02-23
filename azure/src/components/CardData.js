@@ -1,10 +1,26 @@
+import Cardimg1 from "../assets/CardImg.webp";
+import Imagea from  "../assets/Imagea.webp";
+import LinuxImg from "../assets/LinuxImg.webp";
 let CardData=[ 
     {
-        imgsrc:"https://azurecomcdn.azureedge.net/cvt-78b49a463fc0…44a8b030375f4d3/images/page/home/open-source.webp"
-        h3:"Use your favorite open-source tools on Azure"
-        p:"Innovate faster and more flexibly-in any environment-using your favorite tools",<br>
-        p:"languages,and frameworks."
+        imgsrc:Cardimg1,
+        heading:"Use your favorite open-source tools on Azure",
+        p:"Innovate faster and more flexibly-in any environment-using your favorite tools languages,and frameworks."
+    },
+    {
+        imgsrc:Imagea,
+        heading:"Save big by running Linus on Azure",
+        p:"Migrate and modernise with Azure solution for Red Hat and SUSE Linux workloads-and save with Azure Hybird Benefit",
+
+    },
+    
+    {
+        imgsrc:LinuxImg,
+        heading:"Innovate with cloud native and open SourceBufferList",
+        p:"Build and deploy cloud-native apps and take advantage of flexible choice to create microservice applications"
     }
 
+   
 ]
+export default CardData;
 
