@@ -2,7 +2,13 @@ import React from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { VscSearch } from "react-icons/vsc";
 import azureIcon from "../assets/microsofticon.svg";
+
+
+
 function Navbar() {
+
+  
+  
   return (
    
   
@@ -21,7 +27,7 @@ function Navbar() {
               <b>Azure</b>
             </a>
           </li>
-          <li>
+          <li className="explr">
             <a href="">
               Explore
               <RiArrowDropDownLine />

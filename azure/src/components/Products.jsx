@@ -3,6 +3,8 @@ import { VscSearch } from "react-icons/vsc";
 import virtualMachine from "../assets/virtualMachine.png";
 import azureVirtual from "../assets/azureVirtual.png";
 import azureSql from "../assets/azureSql.jpg";
+import AzureCosmosDB from "../assets/AzureCosmosDB.png";
+import appService from "../assets/appService.png";
 
 function Products(){
     return(
@@ -51,38 +53,58 @@ function Products(){
                 </div>
                 </div>
                 </div>
-                <div className="pro-row">
+                < div className="pro-row">
                     <div className="pro-coloum">
                   <h3>Featured</h3>
                   <div>
                       <h3>Explore Some of the popular Azure products</h3>
                   </div>
-                  <div className="Pro-card">
+                  <div className="production-cards">
+                    <div className="production-container">
+                
+                  <div className="Pro-card1 pro-card-hover">
                   <img src={virtualMachine} alt="" />
-                  <h3>Virtual Machines</h3>
+                  <h3>Virtual Machines</h3><br></br>
                   <p>Provision Windows and Linus Virtual</p>
                   Machines in seconds</div>
-                  <div className="pro-card2">
+                  <div className="pro-card2 pro-card-hover">
                       <img src={azureVirtual} alt=""/>
-                      <h3>Azure Virtual Desktop</h3>
+                      <h3>Azure Virtual Desktop</h3><br></br>
                       <p>Enable a secure,remote desktop</p>
                       experience from anywhere
                   </div>
-                  <div className="pro-card3">
+                  <div className="pro-card3 pro-card-hover ">
                       <img src={azureSql} alt=""/>
-                      <h3>Azure Sql</h3>
+                      <h3>Azure Sql</h3><br></br>
                       <p>Managed,always up-to-date SQL</p>
                       instance in the cloud
                   </div>
-                  <div>
-                      
+                   <div className="pro-card4 pro-card-hover">
+                      <img src={AzureCosmosDB} alt=""/>
+                      <h3>Azure Cosmos DB</h3><br></br>
+                      <p>Fast NoSQL database with open</p>
+                      APIs for any scale
+                  </div> 
+                  
+                    </div>
+                    <div className="production-container2">
+                      <div className="pro-card5">
+                      <img src={appService} alt=""/>
+                      <h3>App Service</h3>
+                      Quickly create powerful cloud apps<br></br>
+                       for web and mobile
+                      </div>
 
                   </div>
+                  
+                  </div>
+                  </div> 
 
-                    </div>
-                    
-                </div>
-                </div>
+             </div> 
+                     
+            </div> 
+                
+                
             
           
 

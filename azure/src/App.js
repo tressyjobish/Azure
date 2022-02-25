@@ -11,6 +11,8 @@ import AzureServiceCard from "./components/AzureServiceCard";
 import Explore from "./components/Explore";
 import Products from "./components/Products";
 import React,{useState} from "react";
+import AzureInnovation from "./components/AzureInnovation";
+import AzureMigration from "./components/AzureMigration";
 function App() {
   return (
     <div>
@@ -45,6 +47,8 @@ function App() {
       </Section>
     </div>
     <AzureServiceCard/>
+    <AzureInnovation/>
+    <AzureMigration/>
     
     </div>
     

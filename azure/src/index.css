@@ -53,6 +53,16 @@ header .nava ul{
   text-decoration: underline;
 }
 
+/* @media (max-width: 500px){
+  body {
+    color: #0062AD;
+
+  } */
+
+
+  
+
+  
 
 
 ul{
@@ -92,6 +102,9 @@ border-radius:9px;
 .heading h3:hover{
   text-decoration: underline;
 }
+
+
+
 .banner{
   background-image:url("https://azurecomcdn.azureedge.net/cvt-374bb9e55c52c54a3c8ef40a8d69bc4d412cea2c7459a373e4b63ce88be37ad7/images/page/home/hero-desktop.webp");
   height:75vh;
@@ -197,7 +210,7 @@ display: inline-block;
     
     justify-content: space-between;
     align-items: center;
-    max-width: 550px;
+    max-width:35rem;
     }
     .header-bottom{
       
@@ -287,18 +300,157 @@ display: inline-block;
         
         }
         .pro-row{
-          padding: 3rem;
+          padding: 4rem;
+          margin: 2rem;
+          
+          
         }
-       .Pro-card img{
-         width: 50px;
-       }
-       .pro-card2 img{
-         width:50px;
-       }
-       .pro-card3 img{
-         width:50px;
-       }
+        .production-cards{
+        
+      height: 30rem;
+          margin-left: 2rem;
+        
+        justify-content:space-between;
+        align-items: flex-end;
+        border-radius: 2px solid gray;
+        box-shadow:0 2px 5px rgb(0 0 0 / 14%); 
+
+        }
+
+        .production-container{
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+          line-height:1rem;
+          color: #1A1A1F;
     
+      margin-left: 2rem;
+      
+      
+    }
+    .production-container h3:hover{
+      text-decoration: underline;
+      
+    }
+    .Pro-card1,.pro-card2,.pro-card3,.pro-card4{
+      height: 8rem;
+    }
+    .pro-card-hover:hover{
+      background-color:#fff;
+
+    }
+    
+      .production-cards img{
+          width:2rem;
+        }
+        .azureinnovation{
+          text-align: center;
+          margin: 1rem;
+        }
+        .button-img{
+        padding:1rem;
+           margin:1rem;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+      }
+        .button-img1,.button-img2,.button-img3,.button-img4,.button-img5{
+          margin:1rem;
+          background-color: #fff;
+          border: none;
+        }
+        .azureinnovation{
+          margin-top:-2rem;
+        }
+        
+        .azureinnovation-img{
+          background: url("https://azurecomcdn.azureedge.net/cvt-374bb9e55c52c54a3c8ef40a8d69bc4d412cea2c7459a373e4b63ce88be37ad7/images/page/home/customer-tabs/nba-desktop.webp");
+          height:80vh;
+          background-size: cover;
+          width:100%;
+
+
+        }
+        .azureinnovation-text{
+          color: #f4f5f6;
+          
+          height:7rem;
+          justify-content: center;
+          text-align: center;
+          display: flex;
+          padding: 30rem;
+          padding-left: 2rem;
+      
+        }
+        .inno-info{
+          background-color:#1A1A1ff0;
+          height: 8rem;
+          width: 42rem;
+          font-size:18px;
+          font-weight: 40rem;
+          text-align: center;
+          line-height:2rem;
+        
+        }
+        .inno-info h5{
+          margin-right: 26rem;
+          text-decoration: underline;
+        }
+        .azuremigration {
+          background-color:#f8f9fa;
+          display: flex;
+          align-items: center;
+        
+        }
+       .azuremigration img{
+         width:33rem;
+         height: 35rem;
+         margin:2rem;
+         justify-content: center;
+         align-items: center;
+        
+         margin-left: 15rem;
+         margin-top: 2rem;
+         object-fit: cover;
+         
+         
+       }
+       .azuremigration-text {
+         padding:5rem;
+        
+         text-align: center;
+         justify-content: center;
+         margin-bottom: 5rem;
+         line-height: 4rem;
+         
+          }
+          .migration-text{
+          color:black;
+          font-size: 1.5rem;
+          margin-top: 3rem;
+          line-height: 2.5rem;
+        
+          
+          }
+          .migration-btn{
+            color:#0062ad;
+            border: 1px solid #0078d4;
+            font-size: 14px;
+            padding: 15px 16px;
+            margin-right:15rem;
+            
+            
+          }
+          .migration-btn:hover{
+            background-color: #0062ad;
+            color: white;
+            text-decoration: underline;
+          }
+      
+    
+        
+     
+      
     
         
          
@@ -310,7 +462,7 @@ display: inline-block;
 
        
 
-       
+        
 
   
 
