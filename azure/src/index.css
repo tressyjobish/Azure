@@ -55,7 +55,7 @@ header .nava ul{
 
 /* @media (max-width: 500px){
   body {
-    color: #0062AD;
+
 
   } */
 
@@ -157,6 +157,7 @@ display: inline-block;
   height:10rem;
   border-radius: 10px;
   object-fit: cover;
+  
 }
 .card h3{
   color:#0062AD;
@@ -446,6 +447,82 @@ display: inline-block;
             color: white;
             text-decoration: underline;
           }
+          .discover-container{
+            height:90rem;
+            padding: 4rem 10rem;
+            margin-top: 3rem;
+            background-color: #0062AD;
+
+            
+          
+            }
+            .discover-container h2{
+              font-size: 1.5rem;
+              text-align: center;
+              margin-right: 3rem;
+            }
+          .discover-card{
+            margin: 40px;
+            height:6rem;
+            width: 50rem;
+            display: flex;
+            column-gap:10px;
+          
+           
+
+          }
+         .discover-info{
+           height: 25rem;
+           width: 20rem; 
+          
+           margin: 2rem;
+           align-items: center;
+           box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
+          
+         }
+          .discover-card img{
+            width: 18rem;
+            height: 10rem;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            margin:1.5rem;
+          }
+          .discover-info h5,p{
+            align-items: center;
+            line-height: 1.5rem;
+            padding-left: 2rem;
+          
+             }
+             .discover-info h5,p:hover{
+               text-decoration: underline;
+
+             }
+            
+            .discovers-text{
+              background:url("https://azurecomcdn.azureedge.net/cvt-b25e2f3ec9c26362149a7eee6f74a05256aebbf9fc0478ff53685ffa53bf98b1/images/page/home/news/linux-w-azure-1250w.webp");
+             height:400px;
+             width:700px;
+            object-fit: cover;
+            margin: 2rem;
+            
+            
+            }
+    
+          .discovers-text h3{
+            font-size:18px;
+              color: #ffff;
+              text-align: center;
+              justify-content: center;
+            padding: 8rem;
+             } 
+            
+            .discover-rowcard img{
+              width: 10rem;
+              
+            }
+
+
+        
       
     
         

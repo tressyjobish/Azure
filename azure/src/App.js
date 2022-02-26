@@ -13,6 +13,7 @@ import Products from "./components/Products";
 import React,{useState} from "react";
 import AzureInnovation from "./components/AzureInnovation";
 import AzureMigration from "./components/AzureMigration";
+import DiscoverCards from "./components/DiscoverCards";
 function App() {
   return (
     <div>
@@ -49,6 +50,7 @@ function App() {
     <AzureServiceCard/>
     <AzureInnovation/>
     <AzureMigration/>
+    <DiscoverCards/>
     
     </div>
     
