@@ -4,6 +4,7 @@ import { VscSearch } from "react-icons/vsc";
 import azureIcon from "../assets/microsofticon.svg";
 
 
+
 // let nav=document.querySelector('.head')
 // window.addEventListener('scroll',fixNav)
 function Navbar() {

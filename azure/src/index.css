@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  margin: 0;
+  margin: 0; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
@@ -448,14 +448,12 @@ display: inline-block;
             text-decoration: underline;
           }
           .discover-container{
-            height:90rem;
-            padding: 4rem 10rem;
-            margin-top: 3rem;
-            background-color: #0062AD;
-
-            
           
-            }
+        
+            padding: 3rem 9rem;
+            margin-top:1rem;
+            margin-right: 3rem;
+                }
             .discover-container h2{
               font-size: 1.5rem;
               text-align: center;
@@ -463,7 +461,7 @@ display: inline-block;
             }
           .discover-card{
             margin: 40px;
-            height:6rem;
+            /* height:6rem; */
             width: 50rem;
             display: flex;
             column-gap:10px;
@@ -475,7 +473,7 @@ display: inline-block;
            height: 25rem;
            width: 20rem; 
           
-           margin: 2rem;
+           margin: 1.2rem;
            align-items: center;
            box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
           
@@ -503,26 +501,141 @@ display: inline-block;
              height:400px;
              width:700px;
             object-fit: cover;
-            margin: 2rem;
+            margin: 1rem;
             
             
             }
     
           .discovers-text h3{
             font-size:18px;
-              color: #ffff;
+              color: #fff;
               text-align: center;
               justify-content: center;
             padding: 8rem;
              } 
-            
-            .discover-rowcard img{
-              width: 10rem;
+
+
+             .discover-rowcard{
+             height: 27rem;
+              width: 26rem;
+              /* margin: 22rem; */
               
+              margin-left:2rem;
+              display: flex;
+               }
+
+             .discover-rowcard img{
+              width: 18rem;
+              height: 10rem;
+              border-radius: 10px;
+              margin-bottom: 12px;
+              margin:1.5rem;
+             }
+             .discover-rowcard h5,p{
+              align-items: center;
+              line-height: 1.5rem;
+              padding-left: 2rem;
+
+             }
+             .discover-rowcardtext{
+               background-image:url("https://azurecomcdn.azureedge.net/cvt-d941d2e182be8e17b57ea4354014dff1138e97101d22f6e941e56ac6228b0260/images/page/home/news/azure-regions-1250w.webp");
+               height:391px;
+               width:600px;
+              object-fit: cover;
+              margin:1rem;
+            
+            
+              }
+              .discovertext p{
+                color: white;
+                align-items: center;
+                justify-content: center;
+                font-size:2vh;
+                padding-left: 2rem;
+                text-align: center;
+                padding: 6rem;
+                
             }
-
-
+            .prediscover-container{
+              background-image: url("https://azurecomcdn.azureedge.net/cvt-d941d2e182be8e17b57ea4354014dff1138e97101d22f6e941e56ac6228b0260/images/page/home/dev-stories/desktop.webp");
+             height:43rem;
+             
+             padding-top: 4rem;
+            
         
+          
+            background-size: cover;
+            
+            } 
+             .prediscover-img{
+             color: #f4f5f6;
+          
+              height:3rem;
+              justify-content: center;
+              text-align: center;
+              display: flex;
+              padding: 25rem;
+              padding-left: 2rem;  }
+       
+       .prediscover-info{
+       background-color:#1A1A1ff0;
+       height: 10rem;
+       width: 42rem;
+       font-size:14px;
+       font-weight: 40rem;
+       text-align: center;
+       line-height:2rem;
+      }
+      .button-video{
+        color:#ffff;
+        background-color: #0078D4;
+      margin-right:25rem;
+         font-size: 14px;
+         padding: 10px 16px;
+        
+      }
+      .prediscover-info h5{
+      padding: 2rem;
+      }
+      .beforefooter-card img{
+        width: 50px;
+        height: 50px;
+
+      }
+      .beforefooter-container{
+        display: flex;
+        margin: 4rem;
+      }
+
+      .beforefooter-card{
+        width:25rem;
+        height:15rem;
+        background-color: #243A5A;
+        margin: 3rem;
+        
+      }
+      
+      
+      .beforefooter-card1{
+        padding:2rem;
+        color: #fff;
+        font-size:1rem;
+      line-height: 2rem;
+    
+
+      }
+      .beforefooter-card2{
+        background-color: #1A1A1F;
+        color: #fff;
+      }
+     
+     
+      
+            
+
+            
+              
+             
       
     
         

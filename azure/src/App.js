@@ -14,6 +14,8 @@ import React,{useState} from "react";
 import AzureInnovation from "./components/AzureInnovation";
 import AzureMigration from "./components/AzureMigration";
 import DiscoverCards from "./components/DiscoverCards";
+import Prediscover from "./components/Prediscover";
+import BeforeFooter from "./components/BeforeFooter";
 function App() {
   return (
     <div>
@@ -51,6 +53,8 @@ function App() {
     <AzureInnovation/>
     <AzureMigration/>
     <DiscoverCards/>
+    <Prediscover/>
+    <BeforeFooter/>
     
     </div>
     
