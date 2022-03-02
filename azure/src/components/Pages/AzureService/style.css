@@ -1,0 +1,20 @@
+.section {
+  background-color: #f8f9fa;
+}
+.section-heading {
+  font-size: 15px;
+  margin-left: 10rem;
+  padding: 3rem;
+}
+.section-text {
+  color: #4c4c51;
+  line-height: 4rem;
+  font-size: 14px;
+  margin-left: 15rem;
+}
+.section-text:hover {
+  text-decoration: underline;
+}
+.see {
+  color: #0062ad;
+}

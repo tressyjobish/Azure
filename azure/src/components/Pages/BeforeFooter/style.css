@@ -1,0 +1,39 @@
+.beforefooter-container {
+  width:50rem;
+  height:20rem;
+  display: flex;
+  
+  
+}
+
+.beforefooter-card img {
+  width:50px;
+  
+}
+
+
+
+.beforefooter-card1 {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2rem;
+  background-color: #243a5a;
+}
+.beforefooter-card2 {
+  background-color: #1a1a1f;
+  color: #fff;
+  margin: 2rem;
+  text-align: center;
+}
+.beforefooter-card2 img {
+  width: 6rem;
+  padding: 1rem;
+}
+.beforefooter-card3{
+
+
+}
+
+.beforefooter-card3 img {
+  width: 2rem;
+}

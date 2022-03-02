@@ -1,12 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
+import './style.css';
 
 function Explore() {
-  
-const [isActive,setIsActive]=useState("false");
-
-
   return (
-
     <div className="explore">
       <div className="explore-text">
         <div>
