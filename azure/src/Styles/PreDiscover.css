@@ -1,0 +1,38 @@
+.prediscover-container {
+  background-image: url("https://azurecomcdn.azureedge.net/cvt-d941d2e182be8e17b57ea4354014dff1138e97101d22f6e941e56ac6228b0260/images/page/home/dev-stories/desktop.webp");
+  height: 40rem;
+
+  padding-top: 4rem;
+
+  background-size: cover;
+  display: flex;
+}
+.prediscover-img {
+  color: #f4f5f6;
+
+  height: 2rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding: 20rem;
+}
+
+.prediscover-info {
+  background-color: #1a1a1ff0;
+  height: 10rem;
+  width: 42rem;
+  font-size: 14px;
+  font-weight: 40rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.button-video {
+  color: #ffff;
+  background-color: #0078d4;
+  margin-right: 25rem;
+  font-size: 14px;
+  padding: 10px 16px;
+}
+.prediscover-info h5 {
+  padding: 2rem;
+}

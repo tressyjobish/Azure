@@ -4,7 +4,7 @@ function AzureServiceCard({imgsrc,p,a},){
     return(
         <div className="service-container">
             <div className="service"></div>
-            <img src={imgsrc}/>
+            <img src={imgsrc} alt=""/>
             <p>{p}</p>
             <a>{a}</a>
             
