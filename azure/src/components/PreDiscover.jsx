@@ -1,8 +1,7 @@
 import React from "react";
 import { FcVideoFile } from "react-icons/fc";
 
-import "../Styles/PreDiscover.css";
-
+import "../styles/PreDiscover.css";
 function PreDiscover() {
   return (
     <div className="prediscover-container">

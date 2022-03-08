@@ -1,0 +1,51 @@
+.heading h3 {
+  background-color: #0078d4;
+  height: 50px;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading h3:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background-image: url("https://azurecomcdn.azureedge.net/cvt-374bb9e55c52c54a3c8ef40a8d69bc4d412cea2c7459a373e4b63ce88be37ad7/images/page/home/hero-desktop.webp");
+  height: 75vh;
+  background-size: cover;
+}
+.text {
+  padding:4rem 16rem;
+}
+.pre-heading1 {
+  color: #50e6ff;
+  line-height:2rem;
+  font-size:1rem;
+}
+.pre-heading2 {
+  color: white;
+  font-size:25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height:2rem;
+}
+.pre-para p{
+  color: white;
+  font: size 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding:1rem;
+  
+}
+.btn2 {
+  color: black;
+  border:1px solid #6f9e02;
+  border-radius: -7rem;
+  background-color: #89c409;
+  font-size: 14px;
+  padding: 1rem;
+  display: inline-block;
+}
+.btn2:hover {
+  text-decoration: underline;
+}

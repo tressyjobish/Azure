@@ -1,12 +1,10 @@
 import React from "react";
 import { VscSearch } from "react-icons/vsc";
 
-import {VirtualMachine,AzureVirtual,AzureSql,AzureCosmosDB} from "../assets/Images/index";
+import { VirtualMachine, AzureVirtual, AzureSql, AzureCosmosDB } from "../assets/Images/index";
 
 
-// import appService from "../../../assets/";
-import "../Styles/Products.css";
-
+import "../styles/Products.css";
 function Products() {
   return (
     <div className="products">
@@ -20,8 +18,8 @@ function Products() {
           <div>
             <h5>Results will display instanly</h5>
           </div>
-          <div className="feature">
-            <div>
+          < div className="feature">
+            
               <h4>Featured</h4>
               <ul>
                 <li> Al+ Machine Learning</li>
@@ -46,7 +44,7 @@ function Products() {
                 <li>Web</li>
                 <li>Windows Virtual Desktop</li>
               </ul>
-            </div>
+            
           </div>
         </div>
       </div>

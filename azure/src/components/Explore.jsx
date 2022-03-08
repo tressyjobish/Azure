@@ -1,5 +1,5 @@
 import React from "react";
-import '../Styles/Explore.css';
+import "../styles/Explore.css";
 
 function Explore() {
   return (

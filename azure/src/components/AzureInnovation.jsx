@@ -1,7 +1,7 @@
 import React from "react";
-import { Nba, Mondelez, Pepsico, Nhs, Bosch, Ge } from "../assets/Images/index";
 
-import "../Styles/AzureInnovation.css";
+import { Nba, Mondelez, Pepsico, Nhs, Bosch, Ge } from "../assets/Images/index";
+import "../styles/AzureInnovation.css";
 
 function AzureInnovation() {
   return (

@@ -1,9 +1,7 @@
 import React from "react";
+import { Dot, LinuxAzure, Resources, Space } from "../assets/Images/index";
 
-import {Dot, LinuxAzure, Resources, Space } from "../assets/Images/index";
-
-import "../Styles/DiscoverCards.css";
-
+import "../styles/DiscoverCards.css";
 function DiscoverCards(prop) {
   return (
     <div>

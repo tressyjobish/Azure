@@ -1,8 +1,7 @@
 import React from "react";
 import { VscAzure } from "react-icons/vsc";
 
-import "../Styles/Banner.css";
-
+import "../styles/Banner.css";
 function Banner() {
   return (
     <div className="banner">

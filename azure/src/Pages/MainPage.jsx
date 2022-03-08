@@ -1,39 +1,30 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 
-import Explore from "../components/Explore";
-import Products from "../components/Products.js";
-
-import Banner from "../components/Banner.js";
-
-import Card from "../components/Card.js";
+import AzureInnovation from "../components/AzureInnovation.jsx";
+import AzureMigration from "../components/AzureMigartion";
 import AzureService from "../components/AzureService";
+import Banner from "../components/Banner.jsx";
+import BeforeFooter from "../components/BeforeFooter.jsx";
+import Card from "../components/Card.jsx";
+import DiscoverCards from "../components/DiscoverCards.jsx";
+import Explore from "../components/Explore";
+import FooterNav from "../components/FooterNav.jsx";
+import Navbar from "../components/Navbar";
+import PreDiscover from "../components/PreDiscover.jsx";
+// import Products from "../components/Products.jsx";
+import Solution from "../components/Solution.jsx";
+import { CardImg, Imagea, LinuxImg, Linux } from "../assets/Images/index";
+import { Lin, Red, Azurecom, Functions, Vilo, appService } from "../assets/Images/index";
 
-import AzureInnovation from "../components/AzureInnovation.js";
-import AzureMigration from "../components/AzureMigartion"
-
-import DiscoverCards from "../components/DiscoverCards.js";
-import PreDiscover from "../components/PreDiscover.js";
-
-import BeforeFooter from "../components/BeforeFooter.js";
-import FooterNav from "../components/FooterNav.js";
-// import Footer from "./components/Pages/Footer";
-
-import {CardImg,Imagea,LinuxImg,Linux} from "../assets/Images/index";
-
-// import CardImg from "../assets/Images/CardImg.webp";
-// import Imagea from "../assets/Images/index/Imagea.";
-
-// import LinuxImg from "../assets/LinuxImg.webp";
-// import Linux from "../assets/Linux.svg";
-import AzureServiceCard from "../components/AzureServiceCard";
+// import AzureServiceCard from "../components/AzureServiceCard";
 
 function MainPage() {
   return (
     <div className="service-container">
       <Navbar />
       <Explore />
-      <Products />
+      {/* <Products /> */}
+      <Solution/>
       <div className="heading">
         <h3>We are in this together.Explore Azure Resources and tools to help you navigate COVID-19</h3>
       </div>
@@ -41,43 +32,60 @@ function MainPage() {
       <h2 className="pre-card">
         On- premises,Hybird,multicloud,or at the edge-create secure,future-ready cloud solutions on Azure
       </h2>
-      <div className="wrapper">
+      <div className="card-container">
         <div className="wrap-wr">
           <Card
             imgsrc={CardImg}
+            alt=""
+            cardStyle={{ height: "100%", flexDirection: "column", paddingTop: "4rem" }}
             heading="Use your favorite open-source tools on Azure"
-            p="Innovate faster and more flexibly-in any environment-using your favorite tools languages,and frameworks."
+            paragraph="Innovate faster and more flexibly-in any environment-using your favorite tools, languages,and frameworks."
           />
-          <div className="wrap">
-            <Card
-              imgsrc={Imagea}
-              heading="Innovate with cloud native and open SourceBufferList"
-              p="uild and deploy cloud-native apps and take advantage of flexible choice to create microservice applications"
-            />
+        </div>
 
-            <Card
-              imgsrc={LinuxImg}
-              heading="Save big by running Linus on Azure"
-              p="Migrate and modernise with Azure solution for Red Hat and SUSE Linux workloads-and save with Azure Hybird Benefit"
-            />
-          </div>
+        <div className="wrap">
+          <Card
+            imgsrc={Imagea}
+            alt=""
+            heading="Innovate with cloud native and open Source"
+            paragraph="build and deploy cloud-native apps and take advantage of flexible choice to create microservice applications"
+          />
+
+          <Card
+            imgsrc={LinuxImg}
+            alt=""
+            heading="Save big by running Linus on Azure"
+            paragraph="Migrate and modernise with Azure solution for Red Hat and SUSE Linux workloads-and save with Azure Hybird Benefit"
+          />
         </div>
       </div>
+
       <div className="header-bottom">
         <h3>New to Azure?</h3>
         <button className="btn3">Get an overview</button>
       </div>
+      <div className="azureservice-info">
+        <AzureService imgsrc={Lin} alt="" paragraph="" heading="" />
+        <div>
+          <Card
+            imgsrc={Lin}
+            cardStyle={{ width: "40rem" }}
+            paragraph="Provision VMs for Ubuntu,Red Hat,SUSE,and other popular distribution"
+            heading=""
+          />
+          <Card imgsrc={Lin} paragraph="Build,deploy,and scale apps on fully managed OpenShift cluster" heading="" />
+        </div>
+      </div>
 
-      <AzureService />
-      <AzureServiceCard />
+      {/* <AzureService /> */}
+      {/* <AzureServiceCard /> */}
       <AzureInnovation />
       <AzureMigration />
       <DiscoverCards />
       <PreDiscover />
       <BeforeFooter />
-      {/* <Footer /> */}
 
-      {/* <FooterNav /> */}
+      <FooterNav />
     </div>
   );
 }

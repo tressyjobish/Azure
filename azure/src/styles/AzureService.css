@@ -1,0 +1,42 @@
+.section {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  margin: 2rem;
+}
+.section-heading {
+  font-size: 15px;
+  margin-left: 10rem;
+  padding: 3rem;
+}
+.section-text {
+  color: #4c4c51;
+  line-height: 4rem;
+  font-size: 14px;
+}
+.service-btn {
+  border: none;
+}
+.section-text:hover {
+  text-decoration: underline;
+}
+.section-bottom {
+  color: #0062ad;
+}
+.azureservice-card img {
+  width: 3rem;
+  text-align: center;
+}
+.azureservice-card {
+  width: 12rem;
+  height: 15rem;
+  text-align: center;
+  line-height: 1rem;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 14%);
+}
+.azureservice-card h {
+  color: #0062ad;
+  padding: 2rem;
+}
+.azureservice-info {
+  display: flex;
+}

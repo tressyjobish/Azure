@@ -1,12 +1,11 @@
 import React from "react";
-import  {Background} from "../assets/Images/index";
+import { Background } from "../assets/Images/index";
 
-import "../Styles/AzureMigration.css";
-
+import "../styles/AzureMigration.css";
 function AzureMigration() {
   return (
     <div className="azuremigration">
-      <img src={Background} alt=""/>
+      <img src={Background} alt="" />
       <div className="azuremigration-text">
         <div className="migration-text">
           <h2>
