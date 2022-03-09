@@ -11,8 +11,11 @@ import Explore from "../components/Explore";
 import FooterNav from "../components/FooterNav.jsx";
 import Navbar from "../components/Navbar";
 import PreDiscover from "../components/PreDiscover.jsx";
-// import Products from "../components/Products.jsx";
+ import Products from "../components/Products.jsx";
 import Solution from "../components/Solution.jsx";
+import Pricing from "../components/Solution.jsx";
+import Partners from "../components/Partners.jsx";
+import Resources from "../components/Resources.jsx";
 import { CardImg, Imagea, LinuxImg, Linux } from "../assets/Images/index";
 import { Lin, Red, Azurecom, Functions, Vilo, appService } from "../assets/Images/index";
 
@@ -22,9 +25,10 @@ function MainPage() {
   return (
     <div className="service-container">
       <Navbar />
-      <Explore />
+      
       {/* <Products /> */}
-      <Solution/>
+      {/* <Solution/> */}
+
       <div className="heading">
         <h3>We are in this together.Explore Azure Resources and tools to help you navigate COVID-19</h3>
       </div>
@@ -66,15 +70,10 @@ function MainPage() {
       </div>
       <div className="azureservice-info">
         <AzureService imgsrc={Lin} alt="" paragraph="" heading="" />
-        <div>
-          <Card
-            imgsrc={Lin}
-            cardStyle={{ width: "40rem" }}
-            paragraph="Provision VMs for Ubuntu,Red Hat,SUSE,and other popular distribution"
-            heading=""
-          />
-          <Card imgsrc={Lin} paragraph="Build,deploy,and scale apps on fully managed OpenShift cluster" heading="" />
-        </div>
+        
+         
+          
+        
       </div>
 
       {/* <AzureService /> */}

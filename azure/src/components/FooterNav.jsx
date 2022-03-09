@@ -1,9 +1,12 @@
 import React from "react";
+import { RiArrowDropDownLine } from "react-icons/ri";
+
 import { Azure } from "../assets/Images/index";
 import { Twitter } from "../assets/Images/index";
 import { Insta } from "../assets/Images/index";
-import { Linked } from "../assets/Images/index"
-import { RiArrowDropDownLine } from "react-icons/ri";
+import { Linked } from "../assets/Images/index";
+
+
 import "../styles/FooterNav.css";
 
 function FooterNav() {
@@ -95,6 +98,30 @@ function FooterNav() {
           <div className="footer-info">
             <h5>Change language</h5>
             <button className="button-footer">English(India) <RiArrowDropDownLine/> </button>
+          </div>
+          <div className="footer-content">
+          <div className="footer-link">
+            <ul className="footer-li">
+              <li>Diversity and Inclusion</li>
+              <li>Accessibility</li>
+              <li>Privacy &amp; Cookies</li>
+              <li>Data Protection Notice</li>
+              <li>Trademarks</li>
+              <li>Terms of use</li>
+              <li>Privacy Data Management</li>
+         
+            </ul>
+
+          </div>
+          <div>
+            <ul className="copy-right">
+              <li>Contact us</li>
+              <li>Feedback</li>
+              <li>Sitemap</li>
+              <li><span>© Microsoft 2022</span></li>
+
+            </ul>
+          </div>
           </div>
           </div>
       </div>

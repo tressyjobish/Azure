@@ -5,8 +5,12 @@ import { VscSearch } from "react-icons/vsc";
 
 import { Micro } from "../assets/Images/index";
 import Explore from "./Explore";
-// import Products from "./Products";
+import Products from "./Products";
+import Pricing from "./Pricing";
+import Partners from "./Partners";
 import "../styles/Navbar.css";
+import Solution from "./Solution";
+import Resources from "./Resources";
 function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState("");
   const handleDropdownClick = (name) => {
@@ -38,30 +42,30 @@ function Navbar() {
               <div className="dropdown-content" style={{ display: activeDropdown === "explore" ? "block" : "none" }}>
                 <Explore />
               </div>
-              {/* <button onClick={() => handleDropdownClick("products")}>Products</button>
-              <div className="dropdown-content" style={{width:"80vw", display: activeDropdown === "products" ? "block" : "none" }}>
-                <Products /> 
-              </div> */}
-              <label>
-                <select>
-                  <option value="Solutions">Solutions</option>
-                </select>
-              </label>
-              <label>
-                <select>
-                  <option value="Pricing">Pricing</option>
-                </select>
-              </label>
-              <label>
-                <select>
-                  <option value="Partners">Partners</option>
-                </select>
-              </label>
-              <label>
-                <select>
-                  <option value="Resources">Resources</option>
-                </select>
-              </label>
+              <button onClick={() => handleDropdownClick("products")}>Products</button>
+              <div
+                className="dropdown-content"
+                style={{ width: "80vw", display: activeDropdown === "products" ? "block" : "none" }}
+              >
+                <Products />
+              </div>
+              <button onClick={() => handleDropdownClick("solution")}>Solution</button>
+              <div className="dropdown-content" style={{ display: activeDropdown === "solution" ? "block" : "none" }}>
+                <Solution />
+              </div>
+
+              <button onClick={() => handleDropdownClick("pricing")}>Pricing</button>
+              <div className="dropdown-content" style={{ display: activeDropdown === "pricing" ? "block" : "none" }}>
+                <Pricing />
+              </div>
+              <button onClick={() => handleDropdownClick("partners")}>Partners</button>
+              <div className="dropdown-content" style={{ display: activeDropdown === "partners" ? "block" : "none" }}>
+                <Partners />
+              </div>
+              <button onClick={() => handleDropdownClick("resources")}>Resources</button>
+              <div className="dropdown-content" style={{ display: activeDropdown === "resources" ? "block" : "none" }}>
+                <Resources />
+              </div>
             </div>
 
             <button className="btn">Free account</button>

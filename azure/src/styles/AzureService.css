@@ -2,6 +2,8 @@
   background-color: #f8f9fa;
   padding: 2rem;
   margin: 2rem;
+  width:100rem;
+  
 }
 .section-heading {
   font-size: 15px;
@@ -9,6 +11,7 @@
   padding: 3rem;
 }
 .section-text {
+   
   color: #4c4c51;
   line-height: 4rem;
   font-size: 14px;
@@ -22,10 +25,7 @@
 .section-bottom {
   color: #0062ad;
 }
-.azureservice-card img {
-  width: 3rem;
-  text-align: center;
-}
+
 .azureservice-card {
   width: 12rem;
   height: 15rem;
@@ -38,5 +38,11 @@
   padding: 2rem;
 }
 .azureservice-info {
+  display: flex;
+}
+.main-card{
+  display: flex;
+}
+.section-first{
   display: flex;
 }

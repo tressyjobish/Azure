@@ -80,16 +80,18 @@ a {
   gap: 2rem;
 }
 .navbar-option {
-  background-color: aqua;
-  text-align: center;
+  
+
+  text-align: center; 
   justify-content: center;
   margin: 1rem;
   position: relative;
 }
-.dropdown-content {
+ .dropdown-content {
   position: absolute;
   background-color: #f4f5f6;
-  width: 80vw;
-  left: -10em;
+  width:70vw;
+  left:-10rem;
   top: 1.9em;
-}
+   
+} 

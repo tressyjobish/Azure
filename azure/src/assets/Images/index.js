@@ -12,6 +12,7 @@ import Book from "../Images/Book.svg";
 import Bosch from "../Images/Bosch.png";
 import CardImg from "../Images/CardImg.webp";
 import Cognitive from "../Images/Cognitive.png";
+import Copy from "../Images/Copy.jpg";
 import Dot from "../Images/Dot.webp";
 import FootBall from "../Images/FootBall.webp";
 import Functions from "../Images/Functions.svg";
@@ -52,6 +53,7 @@ export {
   Bosch,
   CardImg,
   Cognitive,
+  Copy,
   Dot,
   FootBall,
   Functions,
