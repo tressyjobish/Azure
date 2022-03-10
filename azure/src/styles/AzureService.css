@@ -2,8 +2,7 @@
   background-color: #f8f9fa;
   padding: 2rem;
   margin: 2rem;
-  width:100rem;
-  
+  width: 100rem;
 }
 .section-heading {
   font-size: 15px;
@@ -11,13 +10,14 @@
   padding: 3rem;
 }
 .section-text {
-   
   color: #4c4c51;
   line-height: 4rem;
   font-size: 14px;
 }
 .service-btn {
   border: none;
+  color: #4c4c51;
+  background-color: #f8f9fa;
 }
 .section-text:hover {
   text-decoration: underline;
@@ -40,9 +40,20 @@
 .azureservice-info {
   display: flex;
 }
-.main-card{
+.main-card {
   display: flex;
 }
-.section-first{
+.section-first {
   display: flex;
+}
+.azure-portal img {
+  max-width: 50rem;
+  max-height: none;
+  border: 1.7rem solid black;
+
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 14%);
+}
+.azure-portal img:hover {
+  image-rendering: -webkit-optimize-contrast;
 }

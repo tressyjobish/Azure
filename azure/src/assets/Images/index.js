@@ -16,6 +16,7 @@ import Copy from "../Images/Copy.jpg";
 import Dot from "../Images/Dot.webp";
 import FootBall from "../Images/FootBall.webp";
 import Functions from "../Images/Functions.svg";
+import Featured from "../Images/Featured.webp";
 import Ge from "../Images/Ge.png";
 import Icon from "../Images/Icon.svg";
 import Imagea from "../Images/Imagea.webp";
@@ -57,6 +58,7 @@ export {
   Dot,
   FootBall,
   Functions,
+  Featured,
   Ge,
   Icon,
   Imagea,

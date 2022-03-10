@@ -16,6 +16,7 @@ import Solution from "../components/Solution.jsx";
 import Pricing from "../components/Solution.jsx";
 import Partners from "../components/Partners.jsx";
 import Resources from "../components/Resources.jsx";
+import Language from "../components/Language.jsx";
 import { CardImg, Imagea, LinuxImg, Linux } from "../assets/Images/index";
 import { Lin, Red, Azurecom, Functions, Vilo, appService } from "../assets/Images/index";
 
@@ -85,6 +86,7 @@ function MainPage() {
       <BeforeFooter />
 
       <FooterNav />
+      {/* <Language/> */}
     </div>
   );
 }

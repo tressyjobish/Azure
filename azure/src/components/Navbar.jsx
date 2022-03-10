@@ -38,31 +38,31 @@ function Navbar() {
               </a>
             </li>
             <div className="navbar-option">
-              <button onClick={() => handleDropdownClick("explore")}>Explore</button>
+              <button className="navbtn" onClick={() => handleDropdownClick("explore")}>Explore <RiArrowDropDownLine /></button>
               <div className="dropdown-content" style={{ display: activeDropdown === "explore" ? "block" : "none" }}>
                 <Explore />
               </div>
-              <button onClick={() => handleDropdownClick("products")}>Products</button>
+              <button className="navbtn" onClick={() => handleDropdownClick("products")}>Products<RiArrowDropDownLine /></button>
               <div
                 className="dropdown-content"
                 style={{ width: "80vw", display: activeDropdown === "products" ? "block" : "none" }}
               >
                 <Products />
               </div>
-              <button onClick={() => handleDropdownClick("solution")}>Solution</button>
+              <button className="navbtn"onClick={() => handleDropdownClick("solution")}>Solution<RiArrowDropDownLine /></button>
               <div className="dropdown-content" style={{ display: activeDropdown === "solution" ? "block" : "none" }}>
                 <Solution />
               </div>
 
-              <button onClick={() => handleDropdownClick("pricing")}>Pricing</button>
+              <button className="navbtn" onClick={() => handleDropdownClick("pricing")}>Pricing<RiArrowDropDownLine /></button>
               <div className="dropdown-content" style={{ display: activeDropdown === "pricing" ? "block" : "none" }}>
                 <Pricing />
               </div>
-              <button onClick={() => handleDropdownClick("partners")}>Partners</button>
+              <button className="navbtn" onClick={() => handleDropdownClick("partners")}>Partners<RiArrowDropDownLine /></button>
               <div className="dropdown-content" style={{ display: activeDropdown === "partners" ? "block" : "none" }}>
                 <Partners />
               </div>
-              <button onClick={() => handleDropdownClick("resources")}>Resources</button>
+              <button className="navbtn"onClick={() => handleDropdownClick("resources")}>Resources<RiArrowDropDownLine /></button>
               <div className="dropdown-content" style={{ display: activeDropdown === "resources" ? "block" : "none" }}>
                 <Resources />
               </div>

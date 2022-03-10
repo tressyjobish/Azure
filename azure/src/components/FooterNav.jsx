@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import Language from "./Language";
 
 import { Azure } from "../assets/Images/index";
 import { Twitter } from "../assets/Images/index";
@@ -10,7 +11,18 @@ import { Linked } from "../assets/Images/index";
 import "../styles/FooterNav.css";
 
 function FooterNav() {
+  const [activeDropUp, setActiveDropUp] = useState("");
+  const handleDropUpClick = (name) => {
+    console.log(name, activeDropUp);
+    if (activeDropUp === name) {
+      setActiveDropUp("");
+    } else {
+      setActiveDropUp(name);
+    }
+  };
+  
   return (
+
     <div className="main-footer">
       <div className="container">
         <div className="row">
@@ -97,8 +109,14 @@ function FooterNav() {
           <div className="footer-button">
           <div className="footer-info">
             <h5>Change language</h5>
-            <button className="button-footer">English(India) <RiArrowDropDownLine/> </button>
-          </div>
+             {/* <button className="button-footer">English(India) <RiArrowDropDownLine/> </button> */}
+         <div>
+          <button className="button-footer" onClick={() => handleDropUpClick("english")}>English<RiArrowDropDownLine /></button>
+              <div className="" style={{ display: activeDropUp === "english" ? "block" : "none" }}>
+                <Language />
+              </div>
+              </div>
+               </div>  
           <div className="footer-content">
           <div className="footer-link">
             <ul className="footer-li">

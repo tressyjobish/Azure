@@ -49,6 +49,7 @@ header .nava a {
 }
 ul {
   list-style: none;
+  ;
 }
 a {
   text-decoration: none;
@@ -57,11 +58,12 @@ a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .btn {
-  color: #1a1a1f;
+
   background-color: #89c409;
-  width: 120px;
+  width: 100px;
   padding: 8px;
-  border-radius: 7px;
+  border-radius:4px solid gray;
+  font-size:10px ;
 }
 .btn:hover {
   text-decoration: underline;
@@ -77,7 +79,11 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  gap: 2rem;
+  gap: 1rem;
+  margin-left: 10rem;
+}
+.right-side li{
+  margin-top:5px;
 }
 .navbar-option {
   
@@ -87,11 +93,18 @@ a {
   margin: 1rem;
   position: relative;
 }
+.navbtn{
+  
+  border: none;
+  background-color:#fff;
+}
+
  .dropdown-content {
   position: absolute;
   background-color: #f4f5f6;
   width:70vw;
   left:-10rem;
   top: 1.9em;
+  
    
 } 

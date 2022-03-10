@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import {Lin,Azure,Functions,Vilo,appService }from "../assets/Images/index";
+import {Lin,Azure,Functions,Vilo,appService,Featured }from "../assets/Images/index";
 
 import "../styles/AzureService.css";
 
@@ -62,8 +62,8 @@ function AzureService({ paragraph, heading, cardStyle,imgStyle }) {
         
         <Card
               imgsrc={Lin}
-              imgStyle={{width:"1rem",height:"2rem",}}
-              cardStyle={{ width: "16rem",height:"15rem",fontSize:"15px" }}
+              imgStyle={{width:"1rem",height:"2rem"}}
+              cardStyle={{ width: "16rem",height:"15rem",fontSize:"15px"}}
               heading="Azure Container Apps"
               paragraph="Build and deploy modern apps using serverless containers"/>
               
@@ -105,7 +105,11 @@ function AzureService({ paragraph, heading, cardStyle,imgStyle }) {
             paragraph="Trigger app with serverless computing"
              heading="Azure Functions" />
              </div>
+
         </div>
+<div className="azure-portal">
+  <img src={Featured}/>
+</div> 
       
       </div>
     </div>
