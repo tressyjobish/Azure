@@ -44,7 +44,7 @@ function Navbar() {
               </div>
               <button className="navbtn" onClick={() => handleDropdownClick("products")}>Products<RiArrowDropDownLine /></button>
               <div
-                className="dropdown-content"
+                // className="dropdown-content"
                 style={{ width: "80vw", display: activeDropdown === "products" ? "block" : "none" }}
               >
                 <Products />

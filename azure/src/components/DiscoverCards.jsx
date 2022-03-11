@@ -9,7 +9,7 @@ function DiscoverCards(prop) {
         <h2>Discover what is happening on Azure</h2>
         <div className="discover-card">
           <div className="discover-info">
-            <img src="https://azurecomcdn.azureedge.net/cvt-b25e2f3ec9c26362149a7eee6f74a05256aebbf9fc0478ff53685ffa53bf98b1/images/page/home/news/open-source-day-596w.webp" />
+            <img src="https://azurecomcdn.azureedge.net/cvt-3a0af14d818e4762dbc7d778aa89aafe2448b9ae7b54dadfa2dfdfdf72975bf8/images/page/home/news/conference-596w.webp" />
             <h5>EVENT:AZURE OPEN SOURCE DAY</h5>
             <p>
               Learn how Microsoft works with the<br></br> open-source community to develop<br></br> new technologies- watch

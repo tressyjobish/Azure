@@ -24,8 +24,9 @@
   margin: 2rem;
 }
 .production-cards {
+  
   height: 30rem;
-  margin-left: 2rem;
+  
 
   justify-content: space-between;
   align-items: flex-end;

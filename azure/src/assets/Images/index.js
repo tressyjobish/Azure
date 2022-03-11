@@ -14,7 +14,7 @@ import CardImg from "../Images/CardImg.webp";
 import Cognitive from "../Images/Cognitive.png";
 import Copy from "../Images/Copy.jpg";
 import Dot from "../Images/Dot.webp";
-import FootBall from "../Images/FootBall.webp";
+import Bas from "../Images/Bas.webp";
 import Functions from "../Images/Functions.svg";
 import Featured from "../Images/Featured.webp";
 import Ge from "../Images/Ge.png";
@@ -56,7 +56,7 @@ export {
   Cognitive,
   Copy,
   Dot,
-  FootBall,
+  Bas,
   Functions,
   Featured,
   Ge,

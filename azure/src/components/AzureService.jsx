@@ -75,7 +75,7 @@ function AzureService({ paragraph, heading, cardStyle,imgStyle }) {
              paragraph="Build and operate live games using a single platform" 
              heading="Azure PlayFab" />
              </div>
-             <div>
+             <div className="card-sect">
             <Card 
             imgsrc={Functions}
             imgStyle={{width:"1rem",height:"2rem"}} 
@@ -90,7 +90,7 @@ function AzureService({ paragraph, heading, cardStyle,imgStyle }) {
             paragraph="Trigger app with serverless computing"
              heading="Azure Functions" />
              </div>
-             <div>
+             <div className="card-sec">
             <Card 
             imgsrc={appService}
             imgStyle={{width:"3rem",height:"2rem"}} 
@@ -109,6 +109,7 @@ function AzureService({ paragraph, heading, cardStyle,imgStyle }) {
         </div>
 <div className="azure-portal">
   <img src={Featured}/>
+  <h5>View Azure Portal<br></br>Scrennshot in fullscreen</h5>
 </div> 
       
       </div>

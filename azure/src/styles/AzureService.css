@@ -11,8 +11,8 @@
 }
 .section-text {
   color: #4c4c51;
-  line-height: 4rem;
-  font-size: 14px;
+  line-height: 5rem;
+  
 }
 .service-btn {
   border: none;
@@ -55,5 +55,15 @@
   box-shadow: 0 10px 20px rgb(0 0 0 / 14%);
 }
 .azure-portal img:hover {
-  image-rendering: -webkit-optimize-contrast;
+  transform: translateX(10%);
+}
+.azure-portal h5{
+  color: #0062ad;
+  line-height: 2rem;
+}
+.card-section{
+  margin-right:-66px
+}
+.card-sect{
+  margin-right:-66px;
 }

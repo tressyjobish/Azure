@@ -9,9 +9,12 @@ import Card from "../components/Card.jsx";
 import DiscoverCards from "../components/DiscoverCards.jsx";
 import Explore from "../components/Explore";
 import FooterNav from "../components/FooterNav.jsx";
+import Mondelez  from "../components/Mondele.jsx";
+import Nh from "../components/Nh.jsx";
 import Navbar from "../components/Navbar";
 import PreDiscover from "../components/PreDiscover.jsx";
  import Products from "../components/Products.jsx";
+ import Pepsi from "../components/Pepsi.jsx";
 import Solution from "../components/Solution.jsx";
 import Pricing from "../components/Solution.jsx";
 import Partners from "../components/Partners.jsx";
@@ -79,6 +82,7 @@ function MainPage() {
 
       {/* <AzureService /> */}
       {/* <AzureServiceCard /> */}
+      
       <AzureInnovation />
       <AzureMigration />
       <DiscoverCards />
