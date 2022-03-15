@@ -1,10 +1,10 @@
-.pepsico-img{
-    background: url("../assets/Images/Pep.webp");
-    height: 100vh;
+.nhss-img{
+    background: url("../assets/Images/Mob.webp");
+    height: 80vh;
     background-size: cover;
     width:70%;
   }
-  .pepsico-text{
+  .nhss-text{
     color: #f4f5f6;
   
     height: 7rem;
@@ -12,7 +12,7 @@
     padding: 30rem;
     padding-left: 2rem;
   }
-  .pep-info {
+  .nhss-info {
     background-color: #1a1a1ff0;
     height: 8rem;
     width: 42rem;
@@ -21,6 +21,6 @@
     text-align: center;
     line-height: 2rem;
   }
-  .pep-info h5 {
+  .nhss-info h5 {
     margin-right: 26rem;
     text-decoration: underline;} 

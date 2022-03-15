@@ -1,8 +1,8 @@
 .section {
   background-color: #f8f9fa;
   padding: 2rem;
-  margin: 2rem;
-  width: 100rem;
+  /* margin: 2rem; */
+  width: 140rem;
 }
 .section-heading {
   font-size: 15px;
@@ -10,10 +10,17 @@
   padding: 3rem;
 }
 .section-text {
+  display: flex;
+  flex-direction: column;
+
+  width: 11%;
+
   color: #4c4c51;
   line-height: 5rem;
-  
 }
+.section-text ul {
+}
+
 .service-btn {
   border: none;
   color: #4c4c51;
@@ -47,8 +54,8 @@
   display: flex;
 }
 .azure-portal img {
-  max-width: 50rem;
-  max-height: none;
+  max-width: 30rem;
+  max-height: 35rem;
   border: 1.7rem solid black;
 
   border-radius: 10px;
@@ -57,13 +64,22 @@
 .azure-portal img:hover {
   transform: translateX(10%);
 }
-.azure-portal h5{
+.azure-portal h5 {
   color: #0062ad;
   line-height: 2rem;
 }
-.card-section{
-  margin-right:-66px
+.card-section {
+  margin-right: -66px;
+  display: flex;
+  flex-wrap: wrap;
+
 }
-.card-sect{
-  margin-right:-66px;
+.card-sect {
+  margin-right: -66px;
+}
+.popular {
+  background-color: #f8f9fa;
+  border: none;
+
+  padding-left: 2rem;
 }

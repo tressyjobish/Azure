@@ -5,16 +5,19 @@ import AzureMigration from "../components/AzureMigartion";
 import AzureService from "../components/AzureService";
 import Banner from "../components/Banner.jsx";
 import BeforeFooter from "../components/BeforeFooter.jsx";
+import Bosh from "../components/Bosh.jsx";
 import Card from "../components/Card.jsx";
 import DiscoverCards from "../components/DiscoverCards.jsx";
 import Explore from "../components/Explore";
 import FooterNav from "../components/FooterNav.jsx";
-import Mondelez  from "../components/Mondele.jsx";
+import GG from "../components/GG.jsx";
+import Mondelez from "../components/Mondele.jsx";
 import Nh from "../components/Nh.jsx";
 import Navbar from "../components/Navbar";
+import Nhss from "../components/Nhss";
 import PreDiscover from "../components/PreDiscover.jsx";
- import Products from "../components/Products.jsx";
- import Pepsi from "../components/Pepsi.jsx";
+import Products from "../components/Products.jsx";
+import Pepsi from "../components/Pepsi.jsx";
 import Solution from "../components/Solution.jsx";
 import Pricing from "../components/Solution.jsx";
 import Partners from "../components/Partners.jsx";
@@ -23,15 +26,14 @@ import Language from "../components/Language.jsx";
 import { CardImg, Imagea, LinuxImg, Linux } from "../assets/Images/index";
 import { Lin, Red, Azurecom, Functions, Vilo, appService } from "../assets/Images/index";
 
-// import AzureServiceCard from "../components/AzureServiceCard";
+
 
 function MainPage() {
   return (
     <div className="service-container">
       <Navbar />
-      
+
       {/* <Products /> */}
-      {/* <Solution/> */}
 
       <div className="heading">
         <h3>We are in this together.Explore Azure Resources and tools to help you navigate COVID-19</h3>
@@ -74,15 +76,8 @@ function MainPage() {
       </div>
       <div className="azureservice-info">
         <AzureService imgsrc={Lin} alt="" paragraph="" heading="" />
-        
-         
-          
-        
       </div>
 
-      {/* <AzureService /> */}
-      {/* <AzureServiceCard /> */}
-      
       <AzureInnovation />
       <AzureMigration />
       <DiscoverCards />

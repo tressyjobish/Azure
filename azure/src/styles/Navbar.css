@@ -22,7 +22,7 @@ header img {
 }
 
 header .nav ul {
-  display: flex;
+ display: flex;
   align-items: center;
 }
 header .nav a {
@@ -108,3 +108,9 @@ a {
   
    
 } 
+/* .dropdown-info{
+  width:20rem;
+  height: 20rem;
+  background-color: #89c409;
+  
+} */

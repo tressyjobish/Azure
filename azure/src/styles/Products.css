@@ -9,7 +9,7 @@
 }
 .products {
   width: 70%;
-  height: 50rem;
+  height: 50rem; 
   background-color: #f4f5f6;
   margin-top: 1rem;
   margin-left: 5rem;
@@ -55,10 +55,7 @@
   background-color: #fff;
 }
 
+
 .production-cards img {
   width: 2rem;
 }
-.products-text{
-
-}
-

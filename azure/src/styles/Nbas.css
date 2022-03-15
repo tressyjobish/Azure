@@ -1,8 +1,8 @@
 .nba-img {
-    background: url("../assets/Images/Nba.png");
+    background: url("../assets/Images/Bas.webp");
     height: 80vh;
     background-size: cover;
-    width: 100%;
+    width:80%;
   }
   .nba-text {
     color: #f4f5f6;

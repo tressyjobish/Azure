@@ -1,0 +1,27 @@
+.gg-img {
+  background: url("../assets/Images/Gee.webp");
+  height: 80vh;
+  background-size: cover;
+  width: 70%;
+}
+.gg-text {
+  color: #f4f5f6;
+
+  height: 7rem;
+  display: flex;
+  padding: 30rem;
+  padding-left: 2rem;
+}
+.gg-info {
+  background-color: #1a1a1ff0;
+  height: 8rem;
+  width: 42rem;
+  font-size: 18px;
+  font-weight: 40rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.gg-info h5 {
+  margin-right: 26rem;
+  text-decoration: underline;
+}

@@ -16,17 +16,17 @@
 .button-img2,
 .button-img3,
 .button-img4,
-.button-img5 {
+.button-img5,
+.button-img6 {
   margin: 1rem;
   background-color: #fff;
   border: none;
 }
-.button-img1{
+.button-img1 {
   border-bottom-color: blue;
 }
 
 .azureinnovation-img {
-  /* background: url("https://azurecomcdn.azureedge.net/cvt-374bb9e55c52c54a3c8ef40a8d69bc4d412cea2c7459a373e4b63ce88be37ad7/images/page/home/customer-tabs/nba-desktop.webp"); */
   height: 80vh;
   background-size: cover;
   width: 100%;
@@ -76,11 +76,9 @@
   margin-bottom: 5rem;
   line-height: 4rem;
 }
-.dropdown-cont{
-   /* position:relative; */
+.dropdown-cont {
   background-color: #f4f5f6;
-  width:200rem;
-  /* right:-10rem; */
+  width: 200rem;
+
   top: 1.9em;
-   
 }

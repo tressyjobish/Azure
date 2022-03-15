@@ -1,9 +1,9 @@
 
 .mondelez-img {
     background: url("https://azurecomcdn.azureedge.net/cvt-3a0af14d818e4762dbc7d778aa89aafe2448b9ae7b54dadfa2dfdfdf72975bf8/images/page/home/customer-tabs/mondelez-mobile.webp");
-    height: 80vh;
+    height:80vh;
     background-size: cover;
-    width: 100%;
+    width: 70%;
   }
   .mondelez-text {
     color: #f4f5f6;
@@ -16,7 +16,7 @@
   .mon-info {
     background-color: #1a1a1ff0;
     height: 8rem;
-    width: 42rem;
+    width:40rem;
     font-size: 18px;
     font-weight: 40rem;
     text-align: center;
