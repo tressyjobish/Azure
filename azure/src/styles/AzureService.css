@@ -17,14 +17,17 @@
 
   color: #4c4c51;
   line-height: 5rem;
-}
-.section-text ul {
+  padding: 4rem;
 }
 
+
+
 .service-btn {
+  color: #0062ad;
   border: none;
-  color: #4c4c51;
+  
   background-color: #f8f9fa;
+  padding: 2rem;
 }
 .section-text:hover {
   text-decoration: underline;
@@ -34,7 +37,7 @@
 }
 
 .azureservice-card {
-  width: 12rem;
+  width: 13rem;
   height: 15rem;
   text-align: center;
   line-height: 1rem;
@@ -52,34 +55,39 @@
 }
 .section-first {
   display: flex;
+  
 }
 .azure-portal img {
   max-width: 30rem;
-  max-height: 35rem;
+  height: 25rem;
   border: 1.7rem solid black;
 
   border-radius: 10px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 14%);
 }
 .azure-portal img:hover {
-  transform: translateX(10%);
+  transition: 0.4s;
+  animation: ease-in;
+  transform: translateX(10%); 
 }
 .azure-portal h5 {
   color: #0062ad;
   line-height: 2rem;
 }
 .card-section {
-  margin-right: -66px;
+ 
   display: flex;
   flex-wrap: wrap;
+  padding-left: 6rem;
+  
 
 }
-.card-sect {
-  margin-right: -66px;
-}
+
 .popular {
   background-color: #f8f9fa;
   border: none;
-
-  padding-left: 2rem;
+ padding-left: 3rem;
+}
+.popular:hover{
+  text-decoration: underline;
 }
