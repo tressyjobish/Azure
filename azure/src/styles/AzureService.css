@@ -17,15 +17,13 @@
 
   color: #4c4c51;
   line-height: 5rem;
-  padding: 4rem;
+  padding: 5rem;
 }
-
-
 
 .service-btn {
   color: #0062ad;
   border: none;
-  
+
   background-color: #f8f9fa;
   padding: 2rem;
 }
@@ -55,7 +53,6 @@
 }
 .section-first {
   display: flex;
-  
 }
 .azure-portal img {
   max-width: 30rem;
@@ -68,26 +65,23 @@
 .azure-portal img:hover {
   transition: 0.4s;
   animation: ease-in;
-  transform: translateX(10%); 
+  transform: translateX(10%);
 }
 .azure-portal h5 {
   color: #0062ad;
   line-height: 2rem;
 }
 .card-section {
- 
   display: flex;
   flex-wrap: wrap;
   padding-left: 6rem;
-  
-
 }
 
 .popular {
   background-color: #f8f9fa;
   border: none;
- padding-left: 3rem;
+  padding-left: 2rem;
 }
-.popular:hover{
+.popular:hover {
   text-decoration: underline;
 }

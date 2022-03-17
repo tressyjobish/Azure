@@ -35,9 +35,9 @@ function MainPage() {
 
       {/* <Products /> */}
 
-      <div className="heading">
+      {/* <div className="heading">
         <h3>We are in this together.Explore Azure Resources and tools to help you navigate COVID-19</h3>
-      </div>
+      </div> */}
       <Banner />
       <h2 className="pre-card">
         On- premises,Hybird,multicloud,or at the edge-create secure,future-ready cloud solutions on Azure

@@ -7,19 +7,19 @@ function Banner() {
     <div className="banner">
       <div className="text">
         <div className="pre-heading1">
-          <h2>AZURE.INVENT WITH PURPOSE</h2>
+          <h2>INVENT WITH PURPOSE</h2>
           <br></br>
         </div>
         <div className="pre-heading2">
-          <h1>Your tools.</h1>
+          <h1>Azure.The innovate-</h1>
           <br></br>
         </div>
         <div className="pre-heading2">
-          <h1>Your frameworks.</h1>
+          <h1>anywhere,create-</h1>
           <br></br>
         </div>
         <div className="pre-heading2">
-          <h1>Your cloud.</h1>
+          <h1>anything cloud.</h1>
           <br></br>
         </div>
         <div className="pre-para">

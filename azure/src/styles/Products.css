@@ -9,24 +9,21 @@
 }
 .products {
   width: 70%;
-  height: 50rem; 
+  height: 50rem;
   background-color: #f4f5f6;
   margin-top: 1rem;
   margin-left: 5rem;
   line-height: 2rem;
   font-size: 12px;
 }
-.products-text{
-  
+.products-text {
 }
 .pro-row {
   padding: 4rem;
   margin: 2rem;
 }
 .production-cards {
-  
   height: 30rem;
-  
 
   justify-content: space-between;
   align-items: flex-end;
@@ -54,7 +51,6 @@
 .pro-card-hover:hover {
   background-color: #fff;
 }
-
 
 .production-cards img {
   width: 2rem;

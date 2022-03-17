@@ -3,7 +3,6 @@ import { VscSearch } from "react-icons/vsc";
 
 import { VirtualMachine, AzureVirtual, AzureSql, AzureCosmosDB } from "../assets/Images/index";
 
-
 import "../styles/Products.css";
 function Products() {
   return (
@@ -18,33 +17,31 @@ function Products() {
           <div>
             <h5>Results will display instanly</h5>
           </div>
-          < div className="feature">
-            
-              <h4>Featured</h4>
-              <ul>
-                <li> Al+ Machine Learning</li>
-                <li>Analytics</li>
-                <li>Compute</li>
-                <li>Containers</li>
-                <li>Databases</li>
-                <li>DevOps</li>
-                <li>Developer Tools</li>
-                <li>Hybrid + multicloud</li>
-                <li>Identity</li>
-                <li>Integration</li>
-                <li>Internet of Things</li>
-                <li>Management and Governane</li>
-                <li>Media</li>
-                <li>Migration</li>
-                <li>Mixed Reality</li>
-                <li>Mobile</li>
-                <li>Networking</li>
-                <li>Security</li>
-                <li>Storage</li>
-                <li>Web</li>
-                <li>Windows Virtual Desktop</li>
-              </ul>
-            
+          <div className="feature">
+            <h4>Featured</h4>
+            <ul>
+              <li> Al+ Machine Learning</li>
+              <li>Analytics</li>
+              <li>Compute</li>
+              <li>Containers</li>
+              <li>Databases</li>
+              <li>DevOps</li>
+              <li>Developer Tools</li>
+              <li>Hybrid + multicloud</li>
+              <li>Identity</li>
+              <li>Integration</li>
+              <li>Internet of Things</li>
+              <li>Management and Governane</li>
+              <li>Media</li>
+              <li>Migration</li>
+              <li>Mixed Reality</li>
+              <li>Mobile</li>
+              <li>Networking</li>
+              <li>Security</li>
+              <li>Storage</li>
+              <li>Web</li>
+              <li>Windows Virtual Desktop</li>
+            </ul>
           </div>
         </div>
       </div>

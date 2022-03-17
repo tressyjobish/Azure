@@ -37,19 +37,19 @@ function AzureService({ paragraph, heading, cardStyle, imgStyle }) {
                 {" "}
                 Containers
               </button>
-              <button className="popular" value="Hybridmulticloud"onClick={handleDropdownClick}>
+              <button className="popular" value="Hybridmulticloud" onClick={handleDropdownClick}>
                 {" "}
                 Hybrid + multicloud
               </button>
 
-              <button className="popular" onClick={handleDropdownClick}>
+              <button className="popular" value="Internet"onClick={handleDropdownClick}>
                 {" "}
                 Internet of Things(Iot)
               </button>
               <button className="service-btn" onClick={handleDropdownClick}>
                 {" "}
                 See all products(200+1)<span></span>
-              </button> 
+              </button>
             </li>
           </ul>
         </div>
@@ -57,13 +57,13 @@ function AzureService({ paragraph, heading, cardStyle, imgStyle }) {
         <div className="main-card">
           <div className="card-section">
             {CardItems[state].map((CardItem, index) => {
-              console.log(CardItem)
+              console.log(CardItem);
               return (
                 <div key={CardItem.id}>
                   <Card
                     imgsrc={CardItem.imgsrc}
                     imgStyle={{ width: "2rem", height: "2rem" }}
-                    cardStyle={{ width: "16rem", height: "15rem", fontSize: "15px" }}
+                    cardStyle={{ width: "16rem", height: "18rem", fontSize: "15px",padding:"2rem" }}
                     heading={CardItem.heading}
                     paragraph={CardItem.paragraph}
                   />

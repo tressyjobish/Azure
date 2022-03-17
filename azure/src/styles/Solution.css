@@ -2,15 +2,13 @@
   /* width:20rem;
   height:5rem; */
   background-color: aqua;
-  
-
 }
-.sub-container{
+.sub-container {
   display: flex;
 }
 .style-button {
   text-align: center;
-  line-height:2rem;
+  line-height: 2rem;
 }
 .button-a {
   border: none;
@@ -36,45 +34,42 @@
 }
 
 .solution-container {
-  width:80rem;
+  width: 80rem;
   background-color: #f4f5f6;
   margin-top: 1rem;
-  margin:2rem;
+  margin: 2rem;
 }
-.use-case{
-  font-size:small;
-  padding:1rem;
-}
-.use-case h2{
+.use-case {
+  font-size: small;
   padding: 1rem;
-
 }
-.use-case p{
-padding-left: 1rem;
+.use-case h2 {
+  padding: 1rem;
 }
-.ai{
-  margin-top:2rem;
-  padding:1rem;
+.use-case p {
+  padding-left: 1rem;
+}
+.ai {
+  margin-top: 2rem;
+  padding: 1rem;
   font-size: small;
 }
-.ai h4{
-margin:1rem;
-font-size: small;
+.ai h4 {
+  margin: 1rem;
+  font-size: small;
 }
-.ai p{
+.ai p {
   padding-left: 1rem;
-  }
-  .cloud{
-    font-size: small;
-  margin-top:4rem;
-  margin-left:3rem;
-  }
-  .cloud h4{
-    
-  }
-  .cloud p{
-    padding-left: 1rem;
-  }
-  .section-first{
-    
-  }
+}
+.cloud {
+  font-size: small;
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+.cloud h4 {
+}
+.cloud p {
+  padding-left: 1rem;
+}
+.section-first {
+}

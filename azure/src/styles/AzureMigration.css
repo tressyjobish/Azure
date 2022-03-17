@@ -2,34 +2,47 @@
   background-color: #f8f9fa;
   display: flex;
   align-items: center;
+  margin-top: 3rem;
+  
 }
 
-  
 .azuremigration img {
-  width: 33rem;
-  height: 35rem;
+  width: 31rem;
+  height: 29rem;
   margin: 2rem;
-  justify-content: center;
-  align-items: center;
-
-  margin-left: 15rem;
-  margin-top: 2rem;
+  margin-left: 17rem;
+  margin-top: 2.5rem;
   object-fit: cover;
 }
 .azuremigration-text {
-  padding: 5rem;
+ text-align: center;
+ 
 
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 5rem;
-  line-height: 4rem;
+
+  
+  /* margin-bottom: 5rem;
+  line-height: 4rem; */
 }
 .migration-text {
-  color: black;
-  font-size: 1.5rem;
+
+  font-size:10px;
   margin-top: 3rem;
-  line-height: 2.5rem;
+  /* line-height: 5rem; */
+  
 }
+.migration-text h2{
+
+line-height:1.2rem;
+padding: 1rem;
+margin: 0 0 7px;
+
+  
+  
+ 
+}
+
+
+
 .migration-btn {
   color: #0062ad;
   border: 1px solid #0078d4;

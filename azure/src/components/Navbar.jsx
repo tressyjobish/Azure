@@ -33,7 +33,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="" className="azure">
                 <b>Azure</b>
               </a>
             </li>
