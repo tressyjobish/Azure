@@ -9,12 +9,12 @@ function AzureMigration() {
       <div className="azuremigration-text">
         <div className="migration-text">
           <h2>
-            Accelerate your migration and modernisation with Azure
+            Accelerate your migration and<br></br> modernisation with Azure
           </h2>
         </div>
-        {/* <div>
+         <div>
           <button className="migration-btn">Explore help and tools</button>
-        </div> */}
+        </div> 
       </div>
     </div>
   );

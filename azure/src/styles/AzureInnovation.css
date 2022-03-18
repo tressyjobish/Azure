@@ -1,24 +1,18 @@
-.azureinnovation-heading {
-  margin-top: 2rem;
-}
+
 .azureinnovation {
   text-align: center;
-  margin: 2rem;
+  margin-top: 3rem;
 }
 .button-img {
-  padding: 1rem;
-  margin: 1rem;
+  
+  /* margin: 1rem; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.button-img1,
-.button-img2,
-.button-img3,
-.button-img4,
-.button-img5,
-.button-img6 {
-  margin: 1rem;
+.button-img1
+ {
+ margin-left: 5rem;
   background-color: #fff;
   border: none;
 }
@@ -30,6 +24,7 @@
   height: 80vh;
   background-size: cover;
   width: 100%;
+
 }
 .azureinnovation-text {
   color: #f4f5f6;

@@ -31,27 +31,27 @@ function AzureInnovation() {
           <img width="90rem" src={Nba} alt="" />{" "}
         </button>
 
-        <button className="button-img2" onClick={() => handleDropdownClick("mondele")}>
+        <button className="button-img1" onClick={() => handleDropdownClick("mondele")}>
           {" "}
           <img width="100rem" src={Mondelez} alt="" />{" "}
         </button>
 
-        <button className="button-img3" onClick={() => handleDropdownClick("pep")}>
+        <button className="button-img1" onClick={() => handleDropdownClick("pep")}>
           {" "}
           <img width="100rem" src={Pepsico} alt="" />{" "}
         </button>
 
-        <button className="button-img4" onClick={() => handleDropdownClick("nhss")}>
+        <button className="button-img1" onClick={() => handleDropdownClick("nhss")}>
           {" "}
           <img width="100rem" src={Nhs} alt="" />{" "}
         </button>
 
-        <button className="button-img5" onClick={() => handleDropdownClick("Bosh")}>
+        <button className="button-img1" onClick={() => handleDropdownClick("Bosh")}>
           {" "}
           <img width="100rem" src={Bosch} alt="" />{" "}
         </button>
 
-        <button className="button-img6" onClick={() => handleDropdownClick("gg")}>
+        <button className="button-img1" onClick={() => handleDropdownClick("gg")}>
           <img width="70rem" src={Ge} alt="" />{" "}
         </button>
       </div>

@@ -2,26 +2,32 @@
   background: url("../assets/Images/Mob.webp");
   height: 80vh;
   background-size: cover;
-  width: 70%;
+  width: 60%;
 }
 .nhss-text {
   color: #f4f5f6;
 
-  height: 7rem;
+  height: 5rem;
   display: flex;
-  padding: 30rem;
-  padding-left: 2rem;
+  padding:40rem;
+   padding-left: 2rem; 
 }
 .nhss-info {
   background-color: #1a1a1ff0;
-  height: 8rem;
-  width: 42rem;
+  height: 9rem;
+  width: 41rem;
   font-size: 18px;
   font-weight: 40rem;
-  text-align: center;
+
   line-height: 2rem;
+  margin-left: 22rem;
+
+}
+.nhss-info p{
+  padding-right: 7rem;
 }
 .nhss-info h5 {
-  margin-right: 26rem;
+  padding-right:25rem;
+  /* margin-right: 26rem; */
   text-decoration: underline;
 }

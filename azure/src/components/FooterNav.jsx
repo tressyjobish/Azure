@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import Language from "./Language";
+
 
 import { Azure } from "../assets/Images/index";
 import { Twitter } from "../assets/Images/index";
@@ -108,13 +108,25 @@ function FooterNav() {
           </div>
           <div className="footer-button">
           <div className="footer-info">
+
+          
+  
             <h5>Change language</h5>
-             {/* <button className="button-footer">English(India) <RiArrowDropDownLine/> </button> */}
+            <label>
+  <select className="english">
+    <option  value="volvo">English</option>
+    <option value="saab">EnglishI(U S) </option>
+    <option value="opel">Sectina</option>
+    <option value="audi">Dansk</option>
+    <option value="volvo">English</option>
+    <option value="saab">EnglishI(U S) </option>
+    <option value="opel">Sectina</option>
+    <option value="audi">Dansk</option>
+  </select>
+  </label>
+            
          <div>
-          <button className="button-footer" onClick={() => handleDropUpClick("english")}>English<RiArrowDropDownLine /></button>
-              <div className="" style={{ display: activeDropUp === "english" ? "block" : "none" }}>
-                <Language />
-              </div>
+          
               </div>
                </div>  
           <div className="footer-content">

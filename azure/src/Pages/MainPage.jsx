@@ -22,7 +22,7 @@ import Solution from "../components/Solution.jsx";
 import Pricing from "../components/Solution.jsx";
 import Partners from "../components/Partners.jsx";
 import Resources from "../components/Resources.jsx";
-import Language from "../components/Language.jsx";
+
 import { CardImg, Imagea, LinuxImg, Linux } from "../assets/Images/index";
 import { Lin, Red, Azurecom, Functions, Vilo, appService } from "../assets/Images/index";
 
@@ -47,7 +47,7 @@ function MainPage() {
           <Card
             imgsrc={CardImg}
             alt=""
-            cardStyle={{ height: "100%", flexDirection: "column", paddingTop: "4rem" }}
+            cardStyle={{ height: "22rem", flexDirection: "column", paddingTop: "4rem" }}
             heading="Use your favorite open-source tools on Azure"
             paragraph="Innovate faster and more flexibly-in any environment-using your favorite tools, languages,and frameworks."
           />

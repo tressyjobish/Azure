@@ -18,8 +18,9 @@
   width: 42rem;
   font-size: 18px;
   font-weight: 40rem;
-  text-align: center;
-  line-height: 2rem;
+  /* text-align: center; */
+  line-height: 3rem;
+  margin-left:33rem ;
 }
 .nhs-info h5 {
   margin-right: 26rem;

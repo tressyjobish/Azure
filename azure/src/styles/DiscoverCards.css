@@ -7,7 +7,7 @@
   margin-left: 3rem;
 }
 .discover-card {
-  /* height:6rem; */
+
   width: 51rem;
   display: flex;
   margin: 2rem;
@@ -79,8 +79,8 @@ p {
 }
 .discover-rowcardtext {
   background-image: url("https://azurecomcdn.azureedge.net/cvt-d941d2e182be8e17b57ea4354014dff1138e97101d22f6e941e56ac6228b0260/images/page/home/news/azure-regions-1250w.webp");
-  height: 403px;
-  width: 700px;
+  height: 400px;
+  width: 625px;
   object-fit: cover;
   margin: 1rem;
 

@@ -21,28 +21,58 @@ function AzureService({ paragraph, heading, cardStyle, imgStyle }) {
         <div className="section-text">
           <ul>
             <li>
-              <button className="popular" value="popular" onClick={handleDropdownClick}>
+              <button
+                className="popular"
+                style={{ borderLeftColor: state === "popular" && "#0062ad" }}
+                value="popular"
+                onClick={handleDropdownClick}
+              >
                 {" "}
                 Popular
               </button>
-              <button className="popular" value="ai" onClick={handleDropdownClick}>
+              <button
+                className="popular"
+                style={{ borderLeftColor: state === "ai" && "#0062ad" }}
+                value="ai"
+                onClick={handleDropdownClick}
+              >
                 {" "}
                 Al + machine learning
               </button>
-              <button className="popular" value="Compute" onClick={handleDropdownClick}>
+              <button
+                className="popular"
+                style={{ borderLeftColor: state === "Compute" && "#0062ad" }}
+                value="Compute"
+                onClick={handleDropdownClick}
+              >
                 {" "}
                 Compute
               </button>
-              <button className="popular" value="Containers" onClick={handleDropdownClick}>
+              <button
+                className="popular"
+                style={{ borderLeftColor: state === "Containers" && "#0062ad" }}
+                value="Containers"
+                onClick={handleDropdownClick}
+              >
                 {" "}
                 Containers
               </button>
-              <button className="popular" value="Hybridmulticloud" onClick={handleDropdownClick}>
+              <button
+                className="popular"
+                style={{ borderLeftColor: state === "Hybridmulticloud" && "#0062ad" }}
+                value="Hybridmulticloud"
+                onClick={handleDropdownClick}
+              >
                 {" "}
                 Hybrid + multicloud
               </button>
 
-              <button className="popular" value="Internet"onClick={handleDropdownClick}>
+              <button
+                className="popular"
+                style={{ borderLeftColor: state === "  Internet" && "#0062ad" }}
+                value="Internet"
+                onClick={handleDropdownClick}
+              >
                 {" "}
                 Internet of Things(Iot)
               </button>
@@ -59,15 +89,14 @@ function AzureService({ paragraph, heading, cardStyle, imgStyle }) {
             {CardItems[state].map((CardItem, index) => {
               console.log(CardItem);
               return (
-                <div key={CardItem.id}>
-                  <Card
-                    imgsrc={CardItem.imgsrc}
-                    imgStyle={{ width: "2rem", height: "2rem" }}
-                    cardStyle={{ width: "16rem", height: "18rem", fontSize: "15px",padding:"2rem" }}
-                    heading={CardItem.heading}
-                    paragraph={CardItem.paragraph}
-                  />
-                </div>
+                <Card
+                  key={CardItem.id}
+                  imgsrc={CardItem.imgsrc}
+                  imgStyle={{ width: "2rem", height: "2rem" }}
+                  cardStyle={{ width: "15rem", height: "14rem", fontSize: "15px", padding: "1rem" }}
+                  heading={CardItem.heading}
+                  paragraph={CardItem.paragraph}
+                />
               );
             })}
           </div>

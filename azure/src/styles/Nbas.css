@@ -1,8 +1,8 @@
 .nba-img {
   background: url("../assets/Images/Bas.webp");
-  height: 80vh;
+  height: 78vh;
   background-size: cover;
-  width: 80%;
+  width:60%;
 }
 .nba-text {
   color: #f4f5f6;
@@ -14,14 +14,16 @@
 }
 .nba-info {
   background-color: #1a1a1ff0;
-  height: 8rem;
-  width: 42rem;
+  height: 7rem;
+ 
   font-size: 18px;
   font-weight: 40rem;
-  text-align: center;
+  
   line-height: 2rem;
+
+  margin-left: 20rem;
 }
 .nba-info h5 {
-  margin-right: 26rem;
+  margin-right: 20rem;
   text-decoration: underline;
 }
