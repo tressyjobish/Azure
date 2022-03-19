@@ -1,5 +1,5 @@
 .container {
-  padding-left: 5rem;
+  padding-left: 6rem;
 }
 
 .row {
@@ -14,7 +14,7 @@
 
 .footer-btn {
   width: 15rem;
-  justify-content: space-between;
+  height: 3rem;
   align-items: center;
   border-radius: 4px;
   display: flex;
@@ -31,10 +31,10 @@
 }
 .main-column {
   display: flex;
-  margin-left: 9rem;
-  
+  margin-left: 8rem;
+  margin-top: 2rem;
 }
-.english{
+.english {
   height: 2rem;
   width: 10rem;
 }
@@ -75,7 +75,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  margin-right: 20rem;
+  margin-right: 19rem;
 }
 .copy-right {
   display: flex;

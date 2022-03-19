@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { VscSearch } from "react-icons/vsc";
-
 import { Micro } from "../assets/Images/index";
 import Explore from "./Explore";
 // import Products from "./Products";
 import Pricing from "./Pricing";
 import Partners from "./Partners";
-import "../styles/Navbar.css";
+
 import Solution from "./Solution";
 import Resources from "./Resources";
+
+import "../styles/Navbar.css";
 function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState("");
   const handleDropdownClick = (name) => {
@@ -48,10 +49,11 @@ function Navbar() {
                 Products
                 <RiArrowDropDownLine />
               </button>
-              <div className="dropdown-info"
+              <div
+                className="dropdown-info"
                 style={{ width: "80vw", display: activeDropdown === "products" ? "block" : "none" }}
               >
-                 {/* <Products />  */}
+                {/* <Products />  */}
               </div>
               <button className="navbtn" onClick={() => handleDropdownClick("solution")}>
                 Solution

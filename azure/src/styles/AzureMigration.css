@@ -4,6 +4,12 @@
   align-items: center;
   margin-top: 3rem;
 }
+@media screen and (max-width:800px){
+  .azuremigration{
+    width:100% ;
+  }
+  
+}
 
 .azuremigration img {
   width: 31rem;
