@@ -92,6 +92,7 @@ function Navbar() {
         <div>
           <ul className="right-side">
             <button className="btn-b">
+              
               Search
               <VscSearch />
             </button>

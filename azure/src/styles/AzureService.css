@@ -17,6 +17,7 @@
   width: 24vw;
   margin: 3rem 0;
   color: #4c4c51;
+
   
   padding-left: 10rem;
 }
@@ -98,6 +99,7 @@
   height: 3rem;
   width: 80%;
   margin: 0.4rem;
+  text-align: start;
 
   background-color: #f8f9fa;
   font-size: 15px;

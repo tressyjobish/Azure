@@ -43,12 +43,15 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 2rem;
   padding-left: 1rem;
+  text-align: start;
 }
 .main-column ul {
   padding: 2rem;
 }
+.main-column h5 {
+  margin-left: 1rem;
+}
 .main-column:hover {
-  cursor: pointer;
   text-decoration: underline;
 }
 .footer-button {
@@ -75,7 +78,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  margin-right: 19rem;
+  margin-right: 18rem;
 }
 .copy-right {
   display: flex;

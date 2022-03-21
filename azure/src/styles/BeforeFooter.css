@@ -17,29 +17,44 @@
   font-size: 18px;
 }
 .beforefooter-card1 {
+  height: 15rem;
+  width: 45rem;
   color: #fff;
   font-size: 1rem;
   line-height: 2rem;
   background-color: #243a5a;
   border-radius: 12px;
 }
+.beforefooter-card1 h2{
+  margin-left: 1rem;
+
+}
 .beforefooter-card1 img {
   width: 4rem;
   padding-left: 1rem;
+  margin-top: 1rem;
 }
 .beforefooter-card2 {
+  height: 15rem;
+  width: 45rem;
   background-color: #1a1a1f;
   color: #fff;
   line-height: 3rem;
   border-radius: 12px;
 }
+.beforefooter-card2 h2{
+  margin-left: 1rem;}
+
 .beforefooter-card2 img {
-  width: 3rem;
+  width:3.5rem;
   padding-left: 1rem;
-  margin-top: 1rem;
+  margin-top:1rem;
 
 }
 .beforefooter-card3 {
+  height: 15rem;
+  width: 45rem;
+
   color: #fff;
   line-height: 2rem;
 
@@ -48,7 +63,7 @@
 }
 
 .beforefooter-card3 img {
-  width: 2rem;
+  width: 3rem;
   padding-left: 1rem;
   margin-top: 1rem;
 }

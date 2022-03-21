@@ -34,7 +34,7 @@ function MainPage() {
       {/* <StickyNavbar> */}
       <Navbar/>
     {/* </StickyNavbar> */}
-      {/* <Products /> */}
+        {/* <Products />   */}
 
       {/* <div className="heading">
         <h3>We are in this together.Explore Azure Resources and tools to help you navigate COVID-19</h3>
