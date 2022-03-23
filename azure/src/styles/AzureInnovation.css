@@ -1,0 +1,79 @@
+
+.azureinnovation {
+  text-align: center;
+  margin-top: 3rem;
+}
+.button-img {
+  
+  /* margin: 1rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-img1
+ {
+ margin-left: 5rem;
+  background-color: #fff;
+  border: none;
+}
+.button-img1 {
+  border-bottom-color: blue;
+}
+
+.azureinnovation-img {
+  height: 80vh;
+  background-size: cover;
+  width: 100%;
+
+}
+.azureinnovation-text {
+  color: #f4f5f6;
+
+  height: 7rem;
+  display: flex;
+  padding: 30rem;
+  padding-left: 2rem;
+}
+.inno-info {
+  background-color: #1a1a1ff0;
+  height: 8rem;
+  width: 42rem;
+  font-size: 18px;
+  font-weight: 40rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.inno-info h5 {
+  margin-right: 26rem;
+  text-decoration: underline;
+}
+.azuremigration {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+}
+.azuremigration img {
+  width: 33rem;
+  height: 35rem;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 15rem;
+  margin-top: 2rem;
+  object-fit: cover;
+}
+.azuremigration-text {
+  padding: 5rem;
+
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  line-height: 4rem;
+}
+.dropdown-cont {
+  background-color: #f4f5f6;
+  width: 200rem;
+
+  top: 1.9em;
+}

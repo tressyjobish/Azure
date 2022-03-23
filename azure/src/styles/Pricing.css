@@ -1,0 +1,18 @@
+.pricing-container {
+  display: flex;
+}
+
+.pricing-info {
+  font-size: small;
+  align-items: flex-start;
+}
+.pricing-row {
+  font-size: small;
+  padding: 2rem;
+}
+.pricing-row h4 {
+  padding-left: 1rem;
+}
+.pricing-row p {
+  padding-right: 5rem;
+}

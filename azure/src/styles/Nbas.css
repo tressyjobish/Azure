@@ -1,0 +1,29 @@
+.nba-img {
+  background: url("../assets/Images/Bas.webp");
+  height: 78vh;
+  background-size: cover;
+  width: 60%;
+}
+.nba-text {
+  color: #f4f5f6;
+
+  height: 7rem;
+  display: flex;
+  padding: 30rem;
+  padding-left: 2rem;
+}
+.nba-info {
+  background-color: #1a1a1ff0;
+  height: 7rem;
+
+  font-size: 18px;
+  font-weight: 40rem;
+
+  line-height: 2rem;
+
+  margin-left: 20rem;
+}
+.nba-info h5 {
+  margin-right: 20rem;
+  text-decoration: underline;
+}

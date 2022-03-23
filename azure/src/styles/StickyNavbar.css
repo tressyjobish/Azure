@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  display: none;
+  justify-content: space-between;
+  padding: 0 20rem;
+}
+.azure-logo-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10rem;
+}
+.navbar-show {
+  display: flex;
+}
+.azure-logo-wrapper .azure-logo-wrapper-image {
+  width: 2rem;
+}
+.azure-btn {
+  background-color: #89c409;
+  width: 90px;
+  height: 40px;
+  padding: 7px;
+  border: 1px solid #6f9e02;
+  border-radius: 4px;
+  font-size: 11px;
+  display: inline-block;
+  font-weight: 600;
+  
+}
+.btn:hover {
+  text-decoration: underline;
+}

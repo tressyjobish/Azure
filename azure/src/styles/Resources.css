@@ -1,0 +1,18 @@
+.resources {
+  display: flex;
+  background-color: #f4f5f6;
+  font-size: 12px;
+  padding: 20px 20px;
+  line-height: 2rem;
+  color: #1a1a1f;
+  height: 90%;
+  max-width: 70%;
+  margin-left: 8rem;
+}
+.resources-text {
+  margin-right: 3rem;
+}
+
+.resources-row {
+  font-size: small;
+}

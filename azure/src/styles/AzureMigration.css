@@ -1,0 +1,57 @@
+.azuremigration {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+@media screen and (max-width:800px){
+  .azuremigration{
+    width:100% ;
+  }
+  
+}
+
+.azuremigration img {
+  width: 31rem;
+  height: 29rem;
+  margin: 2rem;
+  margin-left: 17rem;
+  margin-top: 2.5rem;
+  object-fit: cover;
+}
+.azuremigration-text {
+  text-align: center;
+
+  margin-bottom: 5rem;
+  line-height: 4rem;
+}
+.migration-text {
+  font-size: 26px;
+  margin-top: 3rem;
+  line-height: 5rem;
+}
+.migration-text h2 {
+  line-height: 2.5rem;
+  padding: 1rem;
+  margin: 0 0 7px;
+  font-size: 36px;
+  text-align: start;
+}
+
+.migration-btn {
+  color: #0062ad;
+  border: 1px solid #0078d4;
+  font-size: 14px;
+  padding: 16px 16px;
+  margin-right: 10rem;
+}
+.migration-btn:hover {
+  background-color: #0062ad;
+  color: white;
+  text-decoration: underline;
+}
+.discover-container {
+  padding: 3rem 9rem;
+  margin-top: 1rem;
+  margin-right: 3rem;
+}

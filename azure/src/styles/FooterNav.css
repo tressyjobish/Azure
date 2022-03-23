@@ -1,0 +1,92 @@
+.container {
+  padding-left: 6rem;
+}
+
+.row {
+  padding-top: 5rem;
+  height: 3rem;
+  display: flex;
+
+  align-items: center;
+
+  gap: 3rem;
+}
+
+.footer-btn {
+  width: 15rem;
+  height: 3rem;
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  padding: -10rem;
+  border: none;
+}
+
+.row img {
+  width: 1.3rem;
+  gap: 2rem;
+}
+.row {
+  padding-left: 10rem;
+}
+.main-column {
+  display: flex;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+.english {
+  height: 2rem;
+  width: 10rem;
+}
+.main-column li {
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2rem;
+  padding-left: 1rem;
+  text-align: start;
+}
+.main-column ul {
+  padding: 2rem;
+}
+.main-column h5 {
+  margin-left: 1rem;
+}
+.main-column:hover {
+  text-decoration: underline;
+}
+.footer-button {
+  margin-left: 12rem;
+}
+.footer-info h5 {
+  line-height: 2rem;
+}
+.button-footer {
+  width: 12rem;
+  height: 2rem;
+  background-color: #fff;
+  text-align: start;
+}
+.footer-link {
+  margin: 2rem;
+}
+
+.footer-link ul {
+  font-size: x-small;
+}
+
+.footer-li {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-right: 18rem;
+}
+.copy-right {
+  display: flex;
+  font-size: x-small;
+  gap: 1rem;
+  justify-content: center;
+  margin-left: 35rem;
+}
+.footer-content li:hover {
+  text-decoration: underline;
+}

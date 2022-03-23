@@ -1,15 +1,12 @@
-import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
-import Card from "./components/Card";
+
+import MainPage from "./Pages/MainPage";
 
 function App() {
   return (
-    <div className="App">
+    
+      <MainPage />
       
-     <Navbar/>
-     <Banner/>
-     <Card/>
-    </div>
+    
   );
 }
 

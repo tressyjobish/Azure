@@ -1,0 +1,33 @@
+.nhss-img {
+  background: url("../assets/Images/Mob.webp");
+  height: 80vh;
+  background-size: cover;
+  width: 60%;
+}
+.nhss-text {
+  color: #f4f5f6;
+
+  height: 5rem;
+  display: flex;
+  padding:40rem;
+   padding-left: 2rem; 
+}
+.nhss-info {
+  background-color: #1a1a1ff0;
+  height: 9rem;
+  width: 41rem;
+  font-size: 18px;
+  font-weight: 40rem;
+
+  line-height: 2rem;
+  margin-left: 22rem;
+
+}
+.nhss-info p{
+  padding-right: 7rem;
+}
+.nhss-info h5 {
+  padding-right:25rem;
+  /* margin-right: 26rem; */
+  text-decoration: underline;
+}
