@@ -10,7 +10,7 @@
   height: 7rem;
   display: flex;
   padding: 30rem;
-  padding-left: 2rem;
+  
 }
 .gg-info {
   background-color: #1a1a1ff0;
@@ -20,8 +20,9 @@
   font-weight: 40rem;
   text-align: center;
   line-height: 2rem;
+  margin-left: 4rem;
 }
 .gg-info h5 {
-  margin-right: 26rem;
+  margin-right: 24rem;
   text-decoration: underline;
 }

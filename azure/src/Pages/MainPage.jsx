@@ -23,22 +23,29 @@ import Solution from "../components/Solution.jsx";
 import Pricing from "../components/Solution.jsx";
 import Partners from "../components/Partners.jsx";
 import Resources from "../components/Resources.jsx";
+import Sticky from "../components/Sticky.jsx";
 
 import { CardImg, Imagea, LinuxImg, Linux } from "../assets/Images/index";
 import { Lin, Red, Azurecom, Functions, Vilo, appService } from "../assets/Images/index";
-// import StickyNavbar from "../components/StickyNavbar.jsx";
+import StickyNavbar from "../components/StickyNavbar.jsx";
 
 function MainPage() {
   return (
     <div id="main-container" className="service-container">
-      {/* <StickyNavbar> */}
-      <Navbar/>
-    {/* </StickyNavbar> */}
+       {/*  */}
+       <Navbar/> 
+        <StickyNavbar> 
+       
+     </StickyNavbar> 
+
+    
         {/* <Products />   */}
 
       {/* <div className="heading">
         <h3>We are in this together.Explore Azure Resources and tools to help you navigate COVID-19</h3>
       </div> */}
+     
+       
       <Banner />
       <div>
         <h2 className="pre-card">
@@ -49,7 +56,7 @@ function MainPage() {
             <Card
               imgsrc={CardImg}
               alt=""
-              cardStyle={{ height: "22rem", flexDirection: "column", paddingTop: "4rem" }}
+              cardStyle={{ height: "19rem", flexDirection: "column" }}
               heading="Use your favorite open-source tools on Azure"
               paragraph="Innovate faster and more flexibly-in any environment-using your favorite tools, languages,and frameworks."
             />
@@ -86,6 +93,7 @@ function MainPage() {
       <PreDiscover />
       <BeforeFooter />
       <FooterNav />
+     
       
     </div>
   );

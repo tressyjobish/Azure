@@ -5,8 +5,9 @@
 }
 header {
   display: flex;
-  margin-top: -1rem;
+   margin-top: -1rem; 
   margin-bottom: -1rem;
+  
 }
 .head {
   display: flex;
@@ -17,7 +18,7 @@ header {
 }
 
 header img {
-  width: 5rem;
+  width: 3rem;
   height: 2rem;
 }
 

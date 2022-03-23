@@ -2,7 +2,7 @@
   background: url("../assets/Images/Bas.webp");
   height: 78vh;
   background-size: cover;
-  width:60%;
+  width: 60%;
 }
 .nba-text {
   color: #f4f5f6;
@@ -15,10 +15,10 @@
 .nba-info {
   background-color: #1a1a1ff0;
   height: 7rem;
- 
+
   font-size: 18px;
   font-weight: 40rem;
-  
+
   line-height: 2rem;
 
   margin-left: 20rem;

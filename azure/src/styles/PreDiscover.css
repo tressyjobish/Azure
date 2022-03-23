@@ -19,11 +19,14 @@
 
 .prediscover-info {
   background-color: #1a1a1ff0;
-  height: 10rem;
-  width: 42rem;
-  font-size: 14px;
+  height: 12rem;
+  width: 45rem;
+  font-size:15px;
   font-weight: 40rem;
-  text-align: center;
+  text-align: start;
+  padding: 1rem;
+
+  /* text-align: center; */
   line-height: 2rem;
 }
 .button-video {
@@ -31,11 +34,15 @@
   background-color: #0078d4;
   margin-right: 25rem;
   font-size: 14px;
-  padding: 10px 16px;
+  padding: 15px 16px;
   border: 0;
   border-radius: 4px;
   
 }
-.prediscover-info h5 {
-  padding: 2rem;
+.button-heading h5{
+  padding-left: 15rem;
+
+  
+  
 }
+

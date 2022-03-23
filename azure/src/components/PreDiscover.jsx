@@ -11,7 +11,7 @@ function PreDiscover() {
             Inspired by his aunt with motor neuron disease,Julius<br></br>
             Sweetland created the OptiKey controlled by eye <br></br>movement-using source and Azure
           </h2>
-          <div>
+          <div className="button-heading">
             <button className="button-video">
               <FcVideoFile />
               Watch the story(1:59)
