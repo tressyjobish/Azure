@@ -7,7 +7,9 @@
   color: #1a1a1f;
   height: 90%;
   max-width: 70%;
-  margin-left: 8rem;
+  margin-left: 10rem;
+  
+  text-align: start;
 }
 .resources-text {
   margin-right: 3rem;
@@ -15,4 +17,8 @@
 
 .resources-row {
   font-size: small;
+}
+.resources-row2 h5{
+  padding-left: 2rem;
+  
 }

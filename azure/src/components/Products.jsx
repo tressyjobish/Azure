@@ -31,7 +31,7 @@ function Products() {
               <li>Identity</li>
               <li>Integration</li>
               <li>Internet of Things</li>
-              <li>Management and Governane</li>
+              {/* <li>Management and Governane</li>
               <li>Media</li>
               <li>Migration</li>
               <li>Mixed Reality</li>
@@ -40,7 +40,7 @@ function Products() {
               <li>Security</li>
               <li>Storage</li>
               <li>Web</li>
-              <li>Windows Virtual Desktop</li>
+              <li>Windows Virtual Desktop</li> */}
             </ul>
           </div>
         </div>

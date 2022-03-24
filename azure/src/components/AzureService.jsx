@@ -79,7 +79,7 @@ function AzureService({ paragraph, heading, cardStyle, imgStyle }) {
               </button>
               <button className="service-btn" onClick={handleDropdownClick}>
                 {" "}
-                See all products(200+1)<span></span>
+                See all products(200+1)
               </button>
             </li>
           </ul>

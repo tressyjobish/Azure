@@ -16,7 +16,7 @@ const StickyNavbar = ({ children }) => {
     window.addEventListener("scroll", () => {
       addRemoveNavbar();
     });
-    // Specify how to clean up after this effect:
+
     return function cleanup() {
       window.removeEventListener("scroll", () => {
         addRemoveNavbar();

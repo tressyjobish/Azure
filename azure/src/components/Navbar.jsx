@@ -4,6 +4,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { VscSearch } from "react-icons/vsc";
 import { Micro } from "../assets/Images/index";
 import Explore from "./Explore";
+
 // import Products from "./Products";
 import Pricing from "./Pricing";
 import Partners from "./Partners";
@@ -91,11 +92,15 @@ function Navbar() {
         </div>
         <div>
           <ul className="right-side">
-            <button className="btn-b">
-              
+            <button className="btn-b" placeholder="search">
               Search
               <VscSearch />
             </button>
+
+            {/* <form>
+  <input type="text" placeholder="search" name="search"></input>
+   <button type="submit" className="btn-b"></button> 
+</form>  */}
 
             <li>
               <a href="">Docs</a>

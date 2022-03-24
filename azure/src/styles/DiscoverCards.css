@@ -1,20 +1,22 @@
 .discover-container {
   padding: 5rem 9rem;
-  margin-top: 1rem;
+  
+  margin-left: 6rem;
 }
 .discover-container h2 {
+  padding-left:30rem;
   font-size: 1.5rem;
-  margin-left: 3rem;
+  
 }
 .discover-card {
 
-  width: 51rem;
+  width: 50rem;
   display: flex;
   margin: 2rem;
 }
 .discover-info {
-  height: 25rem;
-  width: 20rem;
+  height: 24rem;
+  width: 19rem;
 
   margin: 1.2rem;
 
@@ -22,7 +24,7 @@
   box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
 }
 .discover-card img {
-  width: 18rem;
+  width: 17rem;
   height: 10rem;
   border-radius: 10px;
   margin-bottom: 12px;
@@ -41,7 +43,7 @@ p:hover {
 
 .discovers-text {
   background: url("https://azurecomcdn.azureedge.net/cvt-3a0af14d818e4762dbc7d778aa89aafe2448b9ae7b54dadfa2dfdfdf72975bf8/images/page/home/news/build-your-game-1250w.webp");
-  height: 400px;
+  height:24rem;
   width: 700px;
   object-fit: cover;
   margin: 1rem;
@@ -65,7 +67,7 @@ p:hover {
 }
 
 .discover-rowcard img {
-  width: 18rem;
+  width: 17rem;
   height: 10rem;
   border-radius: 10px;
   margin-bottom: 12px;
@@ -79,8 +81,8 @@ p {
 }
 .discover-rowcardtext {
   background-image: url("https://azurecomcdn.azureedge.net/cvt-d941d2e182be8e17b57ea4354014dff1138e97101d22f6e941e56ac6228b0260/images/page/home/news/azure-regions-1250w.webp");
-  height: 400px;
-  width: 625px;
+  height:24rem;
+  width: 624px;
   object-fit: cover;
   margin: 1rem;
 

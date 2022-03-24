@@ -1,15 +1,16 @@
 .beforefooter-container {
-  margin-top: 2rem;
-  padding-left: 15rem;
+  margin-top: 4rem;
+  
+  padding-left: 19rem;
   padding-right: 7rem;
 }
 .beforefooter-container h2:hover {
   text-decoration: underline;
 }
 .beforefooter-cards {
-  width: 85rem;
+  width: 80rem;
   display: flex;
-  gap: 5rem;
+  gap: 2rem;
   align-items: center;
 }
 .beforefooter-cards h2 {

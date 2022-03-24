@@ -32,24 +32,15 @@ import StickyNavbar from "../components/StickyNavbar.jsx";
 function MainPage() {
   return (
     <div id="main-container" className="service-container">
-       {/*  */}
+    
        <Navbar/> 
         <StickyNavbar> 
-       
-     </StickyNavbar> 
-
-    
-        {/* <Products />   */}
-
-      {/* <div className="heading">
-        <h3>We are in this together.Explore Azure Resources and tools to help you navigate COVID-19</h3>
-      </div> */}
-     
-       
+        </StickyNavbar> 
+        {/* <Products />  */}
       <Banner />
       <div>
         <h2 className="pre-card">
-          On- premises,Hybird,multicloud,or at the edge-create secure,future-ready cloud solutions on Azure
+          On- premises,hybird,multicloud,or at the edge-create secure,future-ready cloud solutions on Azure
         </h2>
         <div className="card-container">
           <div className="wrap-wr">
@@ -93,9 +84,7 @@ function MainPage() {
       <PreDiscover />
       <BeforeFooter />
       <FooterNav />
-     
-      
-    </div>
+      </div>
   );
 }
 

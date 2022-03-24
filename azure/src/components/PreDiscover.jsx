@@ -8,8 +8,8 @@ function PreDiscover() {
       <div className="prediscover-img">
         <div className="prediscover-info">
           <h2>
-            Inspired by his aunt with motor neuron disease,Julius<br></br>
-            Sweetland created the OptiKey controlled by eye <br></br>movement-using source and Azure
+            See how game developers at Rare use Azure PlayFab to<br></br>
+            dynamically scale and seamlessly migrate palyers through <br></br>movement-using source and Azure
           </h2>
           <div className="button-heading">
             <button className="button-video">

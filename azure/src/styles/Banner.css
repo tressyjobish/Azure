@@ -14,10 +14,9 @@
 
 .banner {
   background-image: url("https://azurecomcdn.azureedge.net/cvt-374bb9e55c52c54a3c8ef40a8d69bc4d412cea2c7459a373e4b63ce88be37ad7/images/page/home/hero-desktop.webp");
-  height:75vh;
+  height:72vh;
   background-size: cover;
-  margin-top: 1rem;
-  
+  margin-top: 6px;
 }
 @media only screen and (max-width:500px) {
   .banner{
@@ -27,13 +26,13 @@
   
 }
 .text {
-  padding: 3rem 22rem;
+  padding: 5rem 20rem;
   
 }
 .pre-heading1 {
   color: #50e6ff;
   line-height: 2rem;
-  font-size: 1rem;
+  font-size:12px;
 }
 .pre-heading2 {
   color: white;

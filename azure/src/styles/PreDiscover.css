@@ -1,6 +1,6 @@
 .prediscover-container {
   background-image: url("https://azurecomcdn.azureedge.net/cvt-d941d2e182be8e17b57ea4354014dff1138e97101d22f6e941e56ac6228b0260/images/page/home/dev-stories/desktop.webp");
-  height: 40rem;
+  height: 42rem;
 
   padding-top: 4rem;
 
@@ -19,15 +19,13 @@
 
 .prediscover-info {
   background-color: #1a1a1ff0;
-  height: 12rem;
+  height: 13rem;
   width: 45rem;
-  font-size:15px;
+  font-size: 15px;
   font-weight: 40rem;
   text-align: start;
   padding: 1rem;
-
-  /* text-align: center; */
-  line-height: 2rem;
+line-height: 2rem;
 }
 .button-video {
   color: #ffff;
@@ -37,12 +35,8 @@
   padding: 15px 16px;
   border: 0;
   border-radius: 4px;
-  
 }
-.button-heading h5{
+
+.button-heading h5 {
   padding-left: 15rem;
-
-  
-  
 }
-

@@ -114,6 +114,22 @@ function FooterNav() {
             <h5>Change language</h5>
             <label>
   <select className="english">
+    <option  value="volvo">English (India)</option>
+    <option value="saab">EnglishI(U S) </option>
+    <option value="opel">Sectina</option>
+    <option value="audi">Dansk</option>
+    <option value="volvo">English</option>
+    <option value="saab">EnglishI(U S) </option>
+    <option value="opel">Sectina</option>
+    <option value="audi">Dansk</option>
+    <option  value="volvo">English</option>
+    <option value="saab">EnglishI(U S) </option>
+    <option value="opel">Sectina</option>
+    <option value="audi">Dansk</option>
+    <option value="volvo">English</option>
+    <option value="saab">EnglishI(U S) </option>
+    <option value="opel">Sectina</option>
+    <option value="audi">Dansk</option>
     <option  value="volvo">English</option>
     <option value="saab">EnglishI(U S) </option>
     <option value="opel">Sectina</option>

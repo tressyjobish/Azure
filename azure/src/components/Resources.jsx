@@ -3,7 +3,7 @@ import "../styles/Resources.css";
 function Resources() {
   return (
     <div className="resources">
-      <div className="resources-text">
+      <div className="resources-row2">
         <div>
           <h5>Learning</h5>
         </div>
@@ -24,23 +24,32 @@ function Resources() {
       </div>
 
       <div className="resources-coloum">
-        <div className="resources-row">
+        <div className="resources-row2">
           <h5>Technical resources</h5>
           <p>Documentation</p>
           <p>Developer resources</p>
           <p>Quickstart templates</p>
         </div>
+        </div>
 
         <div className="resources-row2">
-          <div>
+          <div className="re-sor">
             <h5>Community</h5>
             <p>Developer community</p>
             <p>Students</p>
             <p>Developer stories</p>
           </div>
         </div>
+        <div className="resources-row2">
+          <div className="re-sor">
+            <h5>What's News</h5>
+            <p>Developer community</p>
+            <p>Students</p>
+            <p>Developer stories</p>
+          </div>
+        </div>
       </div>
-    </div>
+    
   );
 }
 

@@ -1,10 +1,9 @@
 import React from "react";
-import '../styles/Partners.css';
+import "../styles/Partners.css";
 
-function Partners(){
-    return(
-        
-             <div className="partners">
+function Partners() {
+  return (
+    <div className="partners">
       <div className="partners-text">
         <div>
           <h5>Find a partner</h5>
@@ -48,8 +47,7 @@ function Partners(){
         </div>
       </div>
     </div>
-        
-    )
+  );
 }
 
 export default Partners;
