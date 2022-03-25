@@ -1,15 +1,12 @@
 .prediscover-container {
   background-image: url("https://azurecomcdn.azureedge.net/cvt-d941d2e182be8e17b57ea4354014dff1138e97101d22f6e941e56ac6228b0260/images/page/home/dev-stories/desktop.webp");
   height: 42rem;
-
   padding-top: 4rem;
-
   background-size: cover;
   display: flex;
 }
 .prediscover-img {
   color: #f4f5f6;
-
   height: 2rem;
   justify-content: center;
   text-align: center;
@@ -19,24 +16,31 @@
 
 .prediscover-info {
   background-color: #1a1a1ff0;
-  height: 13rem;
-  width: 45rem;
+  height: 14rem;
+  width: 43rem;
   font-size: 15px;
   font-weight: 40rem;
   text-align: start;
   padding: 1rem;
-line-height: 2rem;
+  line-height: 2rem;
 }
 .button-video {
   color: #ffff;
   background-color: #0078d4;
-  margin-right: 25rem;
   font-size: 14px;
   padding: 15px 16px;
   border: 0;
   border-radius: 4px;
 }
-
+.button-video:hover {
+  text-decoration: underline;
+}
 .button-heading h5 {
-  padding-left: 15rem;
+  padding-left: 1rem;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+.button-heading {
+  padding-top: 2rem;
+  display: flex;
 }

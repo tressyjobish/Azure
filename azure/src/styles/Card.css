@@ -12,7 +12,7 @@
   display: flex;
   width: 40rem;
   height: 9rem;
-  padding: 2rem;
+  
   line-height: 1rem;
   border: 1px solid white;
   border-radius:10px;
@@ -37,7 +37,7 @@
   justify-content: center;
   line-height: 1rem;
   padding: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 .card h3:hover {
   text-decoration: underline;
@@ -73,6 +73,7 @@ margin-top: 1rem;
 }
 
 .btn3 {
+  font-weight: 800;
   border: 1px solid #0078d4;
   border-radius: 4px;
   margin-bottom: 2rem;

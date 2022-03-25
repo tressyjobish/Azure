@@ -47,7 +47,7 @@ function MainPage() {
             <Card
               imgsrc={CardImg}
               alt=""
-              cardStyle={{ height: "19rem", flexDirection: "column" }}
+              cardStyle={{ height: "19rem", flexDirection: "column",paddingLeft:"2rem" }}
               heading="Use your favorite open-source tools on Azure"
               paragraph="Innovate faster and more flexibly-in any environment-using your favorite tools, languages,and frameworks."
             />

@@ -9,7 +9,7 @@ function Nbas(){
           <div className="nba-info">
             <p>To bring fans deeper into the game,NBA CourtOptix uses Azure</p>
             <p>machine learning and AI solution to provide on-screen analysis</p>
-            of every shot,pass and play.
+            
             <h5>Case study</h5>
           </div>
         </div>

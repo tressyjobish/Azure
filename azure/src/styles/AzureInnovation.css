@@ -15,15 +15,33 @@
  margin-left: 5rem;
   background-color: #fff;
   border: none;
+  border-bottom: 3px solid transparent;
+  border-bottom-color:#0078d4;
 }
-.button-img1 {
-  border-bottom-color: blue;
+.button-img1:hover {
+  background-color: #eaebec;
+  
+}
+.button-imgs{
+  margin-left: 5rem;
+  background-color: #fff;
+  border: none;
+  border-bottom: 3px solid transparent;
+
+}
+.button-imgs:hover{
+  border: 3px solid black;
+  text-decoration: underline;
+  /* border-bottom-color:#0078d4; */
+  background-color:#eaebec;
+
 }
 
 .azureinnovation-img {
   height: 80vh;
   background-size: cover;
   width: 100%;
+  margin-top: 2rem;
 
 }
 .azureinnovation-text {

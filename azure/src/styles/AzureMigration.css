@@ -41,9 +41,11 @@
 .migration-btn {
   color: #0062ad;
   border: 1px solid #0078d4;
-  font-size: 14px;
+  background-color: #ffff;
+  
   padding: 16px 16px;
-  margin-right: 10rem;
+  margin-right: 21rem;
+  font-weight: 800;
 }
 .migration-btn:hover {
   background-color: #0062ad;

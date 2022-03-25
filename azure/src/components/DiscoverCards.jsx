@@ -12,8 +12,7 @@ function DiscoverCards(prop) {
             <img src="https://azurecomcdn.azureedge.net/cvt-3a0af14d818e4762dbc7d778aa89aafe2448b9ae7b54dadfa2dfdfdf72975bf8/images/page/home/news/conference-596w.webp" />
             <h5>EVENT:AZURE OPEN SOURCE DAY</h5>
             <p>
-              Learn how Microsoft works with the<br></br> open-source community to develop<br></br> new technologies- watch
-              live or on<br></br>demand.
+              Explore more Microsoft solution to empowwer game developers.
             </p>
           </div>
           <div className="discover-info">
@@ -26,7 +25,7 @@ function DiscoverCards(prop) {
           </div>
           <div className="discovers-info2">
             <div className="discovers-text">
-              <h3>Learn how to simplify and Accelerate open-source solution on Linux with Azure</h3>
+              <h3>Learn how to build your game in the cloud with help from Azure</h3>
             </div>
           </div>
         </div>
@@ -35,27 +34,27 @@ function DiscoverCards(prop) {
           <div className="discover-info">
             <img src={Resources} />
             <h5>OPEN SOURCE LEARNING RESOURCES</h5>
-            <p>Expand your open-source skillset with</p>
-            <p>self-paced training,step-by-step guidance,and community resources.</p>
+            <p>Expand your open-source skillset with
+            self-paced training,step-by-step guidance,and community resources.</p>
           </div>
           <div>
             <div className="dicover-rowcard2">
               <div className="discover-rowcardtext">
                 <div className="discovertext">
                   {" "}
-                  <p>Go beyound the limits of on-premises datacentres</p>
-                  <p>with more regions than any other provider</p>
+                  <p>Go beyound the limits of on-premises datacentres
+                  with more regions than any other provider</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="discover-rowcard3">
-            <div className="discover-info">
+            <div className="discover-info3">
               <img src={Space} alt="" />
               <h5>OPEN SOURCE IN SPACE</h5>
-              <p>Find out how to build and deploy</p>
-              <p>app for the final frontier using Linux,</p>
-              <p>Docker,and Azure Space.</p>
+              <p>Find out how to build and deploy
+              app for the final frontier using Linux,
+              Docker,and Azure Space.</p>
             </div>
           </div>
         </div>

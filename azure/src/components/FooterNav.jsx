@@ -6,6 +6,7 @@ import { Azure } from "../assets/Images/index";
 import { Twitter } from "../assets/Images/index";
 import { Insta } from "../assets/Images/index";
 import { Linked } from "../assets/Images/index";
+import { Youtube } from "../assets/Images/index";
 
 
 import "../styles/FooterNav.css";
@@ -25,15 +26,25 @@ function FooterNav() {
 
     <div className="main-footer">
       <div className="container">
-        <div className="row">
+        < div className="row">
           <button className="footer-btn">
             <img src={Azure} alt="" />
             Get the Azure mobile app
           </button>
-          <img src={Twitter} alt="" />
-          <img src={Insta} alt="" />
-          <img src={Linked} alt="" />
-
+           <div className="footer-social">
+             < div className="social">
+               
+             <ul>
+         <li><img src={Twitter} alt="" /></li> 
+          <li><img src={Insta} alt="" /></li>
+          <li><img src={Linked} alt="" /></li>
+         <li> <img src={Youtube} alt=""/></li>
+          </ul> 
+          
+          </div>
+</div>
+          
+          
           </div>
           <div className="main-column">
           <div className="column">

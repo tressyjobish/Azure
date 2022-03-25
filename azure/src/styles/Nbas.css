@@ -5,25 +5,29 @@
   width: 60%;
 }
 .nba-text {
+align-items: center;
+  
   color: #f4f5f6;
 
-  height: 7rem;
+  height: 8rem;
   display: flex;
-  padding: 30rem;
-  padding-left: 2rem;
+  padding: 29rem;
+  padding-left: 1rem;
 }
 .nba-info {
+  padding-top: 2rem;
+  text-align: center;
   background-color: #1a1a1ff0;
-  height: 7rem;
-
+  height: 9rem;
   font-size: 18px;
   font-weight: 40rem;
-
   line-height: 2rem;
-
   margin-left: 20rem;
 }
+
 .nba-info h5 {
-  margin-right: 20rem;
+  
+  
+  padding-right:20rem;
   text-decoration: underline;
 }

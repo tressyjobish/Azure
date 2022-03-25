@@ -1,11 +1,13 @@
 .section {
+  margin-top: 3rem;
   background-color: #f8f9fa;
-  padding: 3rem;
+  padding: 4rem;
 
-  width: 152rem;
-  margin-left: 5rem;
+  width: 160rem;
+  margin-left: 4rem;
 }
 .section-heading {
+  
   font-size: 15px;
   margin-left: 13rem;
 }
@@ -101,3 +103,4 @@
 .popular:hover {
   text-decoration: underline;
 }
+

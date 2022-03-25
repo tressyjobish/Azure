@@ -92,10 +92,14 @@ function Navbar() {
         </div>
         <div>
           <ul className="right-side">
-            <button className="btn-b" placeholder="search">
+            {/* <button className="btn-b" placeholder="search">
               Search
               <VscSearch />
-            </button>
+            </button> */}
+            <div className="input-btn">
+              <input type="" placeholder="search" name=""></input>
+              <VscSearch />
+            </div>
 
             {/* <form>
   <input type="text" placeholder="search" name="search"></input>

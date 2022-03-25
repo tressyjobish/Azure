@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:400;
 }
 header {
   display: flex;
@@ -90,10 +91,10 @@ a {
   justify-content: space-between;
   padding: 1rem;
   gap: 1rem;
-  margin-left: 15rem;
+  margin-left: 5rem;
 }
 .right-side li {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .navbar-option {
   text-align: center;
@@ -120,3 +121,26 @@ a {
   left: -10rem;
   top: 1.9em;
 }
+.input-btn{
+  align-items: center;
+  padding: 3px 10px 5px 10px ;
+  border: 1px solid #747479;
+  border-radius: 6px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 600;
+  margin-top:5px;
+}
+input{
+  border: none;
+  
+  width: 80px;
+  padding:5px;
+  
+  border-radius: 5px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+

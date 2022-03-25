@@ -1,99 +1,104 @@
 .discover-container {
   padding: 5rem 9rem;
-  
-  margin-left: 6rem;
+  margin-left: 9rem;
 }
 .discover-container h2 {
   padding-left:30rem;
-  font-size: 1.5rem;
-  
-}
+  /* font-size: 1.5rem; */
+  font-weight: 500;
+  }
 .discover-card {
-
   width: 50rem;
   display: flex;
-  margin: 2rem;
 }
 .discover-info {
-  height: 24rem;
+  height: 20rem;
   width: 19rem;
-
-  margin: 1.2rem;
-
-  align-items: center;
+justify-content: center;
+ margin: 1.1rem;  
+border-radius: 5px;
   box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
 }
 .discover-card img {
   width: 17rem;
   height: 10rem;
-  border-radius: 10px;
-  margin-bottom: 12px;
-  margin: 1.5rem;
-}
-.discover-info h5,
-p {
+  }
+.discover-info h5
+ {
+  padding-top: 1rem;
   align-items: center;
   line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.discover-info h5,
-p:hover {
-  text-decoration: underline;
-}
+  padding-left: 1rem;
 
+}
+.discover-info p{
+  padding-left: 1rem;
+}
 .discovers-text {
   background: url("https://azurecomcdn.azureedge.net/cvt-3a0af14d818e4762dbc7d778aa89aafe2448b9ae7b54dadfa2dfdfdf72975bf8/images/page/home/news/build-your-game-1250w.webp");
-  height:24rem;
-  width: 700px;
+  height:20rem;
+  width: 625px;
   object-fit: cover;
   margin: 1rem;
+  border-radius: 5px;
 }
 
 .discovers-text h3 {
-  font-size: 18px;
+padding: 1rem;
+  font-size: 23px;
   color: #fff;
-  text-align: center;
-  justify-content: center;
-  padding: 8rem;
+  text-align: start;
+  padding-top: 15rem;
 }
 
 .discover-rowcard {
-  height: 27rem;
-  width: 26rem;
-  /* margin: 22rem; */
-
-  margin-left: 2rem;
-  display: flex;
-}
+  border-radius:5px;
+  height: 20rem;
+  width: 15rem; 
+ display: flex; 
+} 
 
 .discover-rowcard img {
   width: 17rem;
-  height: 10rem;
-  border-radius: 10px;
-  margin-bottom: 12px;
-  margin: 1.5rem;
+  height: 8rem;
+
+  /* margin-bottom: 12px; */
+  /* margin: 1.5rem; */
 }
 .discover-rowcard h5,
 p {
   align-items: center;
   line-height: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 .discover-rowcardtext {
   background-image: url("https://azurecomcdn.azureedge.net/cvt-d941d2e182be8e17b57ea4354014dff1138e97101d22f6e941e56ac6228b0260/images/page/home/news/azure-regions-1250w.webp");
-  height:24rem;
-  width: 624px;
+  height:20rem;
+  width: 610px;
   object-fit: cover;
   margin: 1rem;
 
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .discovertext p {
+  padding-top: 15rem;
   color: white;
-  align-items: center;
-  justify-content: center;
-  font-size: 2vh;
-  padding-left: 2rem;
-  text-align: center;
-  padding: 6rem;
+  font-weight:700;
+  font-size: 2.1vh; 
+  line-height: 2rem;
 }
+.discover-info3{
+
+    height: 20rem;
+    width: 18rem;
+  justify-content: center;
+   margin: 1.1rem;  
+  border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
+  }
+   .discover-info3 img {
+    width: 18rem;
+    height: 10rem;
+    
+    
+} 

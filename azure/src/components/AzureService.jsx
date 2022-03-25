@@ -6,7 +6,7 @@ import { Lin, Azure, Functions, Vilo, appService, Featured } from "../assets/Ima
 
 import "../styles/AzureService.css";
 
-function AzureService({ paragraph, heading, cardStyle, imgStyle }) {
+function AzureService({ paragraph, heading, cardStyle, imgStyle,headingStyle }) {
   const [state, setState] = useState("popular");
 
   const handleDropdownClick = (e) => {
@@ -93,10 +93,11 @@ function AzureService({ paragraph, heading, cardStyle, imgStyle }) {
                 <Card
                   key={CardItem.id}
                   imgsrc={CardItem.imgsrc}
-                  imgStyle={{ width: "2rem", height: "2rem" }}
-                  cardStyle={{ width: "15rem", height: "14rem", fontSize: "15px", padding: "1rem" }}
+                  imgStyle={{ width: "3rem", height: "3rem"}}
+                  cardStyle={{ width: "15rem", height: "14rem", fontSize: "15px", padding:"1rem" }}
                   heading={CardItem.heading}
                   paragraph={CardItem.paragraph}
+                  headingStyle={{paddingTop:"3rem",}}
                 />
               );
             })}

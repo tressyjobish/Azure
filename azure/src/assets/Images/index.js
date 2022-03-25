@@ -47,6 +47,7 @@ import Twitter from "../Images/Twitter.png";
 import Vilo from "../Images/Vilo.svg";
 import VirtualMachine from "../Images/VirtualMachine.png";
 import Qun from "../Images/Qun.webp";
+import Youtube from "../Images/Youtube.svg";
 
 export {
   appService,
@@ -98,4 +99,5 @@ export {
   Vilo,
   VirtualMachine,
   Qun,
+  Youtube,
 };

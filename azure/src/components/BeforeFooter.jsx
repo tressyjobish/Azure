@@ -25,7 +25,7 @@ function BeforeFooter() {
         </div>
         <div className="beforefooter-card3">
           <img src={Book} alt="" />
-          <h2>New to Azure?Microsoft Learn at your own pace</h2>
+          <h2>New to Azure? Learn at your own pace</h2>
           <p>Learn the basics of cloud computing and Azure with self-paced modules on Microsoft Learn</p>
         </div>
       </div>
