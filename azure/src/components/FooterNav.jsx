@@ -1,13 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
-
 
 import { Azure } from "../assets/Images/index";
 import { Twitter } from "../assets/Images/index";
 import { Insta } from "../assets/Images/index";
 import { Linked } from "../assets/Images/index";
 import { Youtube } from "../assets/Images/index";
-
 
 import "../styles/FooterNav.css";
 
@@ -21,44 +19,47 @@ function FooterNav() {
       setActiveDropUp(name);
     }
   };
-  
-  return (
 
+  return (
     <div className="main-footer">
       <div className="container">
-        < div className="row">
+        <div className="row">
           <button className="footer-btn">
             <img src={Azure} alt="" />
             Get the Azure mobile app
           </button>
-           <div className="footer-social">
-             < div className="social">
-               
-             <ul>
-         <li><img src={Twitter} alt="" /></li> 
-          <li><img src={Insta} alt="" /></li>
-          <li><img src={Linked} alt="" /></li>
-         <li> <img src={Youtube} alt=""/></li>
-          </ul> 
-          
+          <div className="footer-social">
+            <div className="social">
+              <ul>
+                <li>
+                  <img src={Twitter} alt="" />
+                </li>
+                <li>
+                  <img src={Insta} alt="" />
+                </li>
+                <li>
+                  <img src={Linked} alt="" />
+                </li>
+                <li>
+                  {" "}
+                  <img src={Youtube} alt="" />
+                </li>
+              </ul>
+            </div>
           </div>
-</div>
-          
-          
-          </div>
-          <div className="main-column">
+        </div>
+        <div className="main-column">
           <div className="column">
             <ul>
-              
-            <h5>Explore Azure</h5>
-            
-            <li>What is Azure?</li>
-            <li>Get Started</li>
-            <li>Global infrasture</li>
-            <li>Datacentre regions</li>
-            <li>Trust your cloud</li>
-            <li>Customer enablement</li>
-            <li>Customer Stories</li>
+              <h5>Explore Azure</h5>
+
+              <li>What is Azure?</li>
+              <li>Get Started</li>
+              <li>Global infrasture</li>
+              <li>Datacentre regions</li>
+              <li>Trust your cloud</li>
+              <li>Customer enablement</li>
+              <li>Customer Stories</li>
             </ul>
           </div>
           <div>
@@ -91,18 +92,16 @@ function FooterNav() {
           </div>
           <div>
             <ul>
-              <h5>
-                Resources
-                </h5>
-                <li>Training and certifications</li>
-                <li>Documentation</li>
-                <li>Updates</li>
-                <li>Blog</li>
-                <li>Developer Resources</li>
-            <li>Students</li>
-            <li>Events and webinars</li>
-            <li>Analyst reports,white papers and e-books</li>
-            <li>Videos</li>
+              <h5>Resources</h5>
+              <li>Training and certifications</li>
+              <li>Documentation</li>
+              <li>Updates</li>
+              <li>Blog</li>
+              <li>Developer Resources</li>
+              <li>Students</li>
+              <li>Events and webinars</li>
+              <li>Analyst reports,white papers and e-books</li>
+              <li>Videos</li>
             </ul>
           </div>
           <div>
@@ -116,71 +115,65 @@ function FooterNav() {
               <li>what is DevOps?</li>
             </ul>
           </div>
-          </div>
-          <div className="footer-button">
+        </div>
+        <div className="footer-button">
           <div className="footer-info">
-
-          
-  
             <h5>Change language</h5>
             <label>
-  <select className="english">
-    <option  value="volvo">English (India)</option>
-    <option value="saab">EnglishI(U S) </option>
-    <option value="opel">Sectina</option>
-    <option value="audi">Dansk</option>
-    <option value="volvo">English</option>
-    <option value="saab">EnglishI(U S) </option>
-    <option value="opel">Sectina</option>
-    <option value="audi">Dansk</option>
-    <option  value="volvo">English</option>
-    <option value="saab">EnglishI(U S) </option>
-    <option value="opel">Sectina</option>
-    <option value="audi">Dansk</option>
-    <option value="volvo">English</option>
-    <option value="saab">EnglishI(U S) </option>
-    <option value="opel">Sectina</option>
-    <option value="audi">Dansk</option>
-    <option  value="volvo">English</option>
-    <option value="saab">EnglishI(U S) </option>
-    <option value="opel">Sectina</option>
-    <option value="audi">Dansk</option>
-    <option value="volvo">English</option>
-    <option value="saab">EnglishI(U S) </option>
-    <option value="opel">Sectina</option>
-    <option value="audi">Dansk</option>
-  </select>
-  </label>
-            
-         <div>
-          
-              </div>
-               </div>  
+              <select className="english">
+                <option value="volvo">English (India)</option>
+                <option value="saab">EnglishI(U S) </option>
+                <option value="opel">Sectina</option>
+                <option value="audi">Dansk</option>
+                <option value="volvo">English</option>
+                <option value="saab">EnglishI(U S) </option>
+                <option value="opel">Sectina</option>
+                <option value="audi">Dansk</option>
+                <option value="volvo">English</option>
+                <option value="saab">EnglishI(U S) </option>
+                <option value="opel">Sectina</option>
+                <option value="audi">Dansk</option>
+                <option value="volvo">English</option>
+                <option value="saab">EnglishI(U S) </option>
+                <option value="opel">Sectina</option>
+                <option value="audi">Dansk</option>
+                <option value="volvo">English</option>
+                <option value="saab">EnglishI(U S) </option>
+                <option value="opel">Sectina</option>
+                <option value="audi">Dansk</option>
+                <option value="volvo">English</option>
+                <option value="saab">EnglishI(U S) </option>
+                <option value="opel">Sectina</option>
+                <option value="audi">Dansk</option>
+              </select>
+            </label>
+
+            <div></div>
+          </div>
           <div className="footer-content">
-          <div className="footer-link">
-            <ul className="footer-li">
-              <li>Diversity and Inclusion</li>
-              <li>Accessibility</li>
-              <li>Privacy &amp; Cookies</li>
-              <li>Data Protection Notice</li>
-              <li>Trademarks</li>
-              <li>Terms of use</li>
-              <li>Privacy Data Management</li>
-         
-            </ul>
-
+            <div className="footer-link">
+              <ul className="footer-li">
+                <li>Diversity and Inclusion</li>
+                <li>Accessibility</li>
+                <li>Privacy &amp; Cookies</li>
+                <li>Data Protection Notice</li>
+                <li>Trademarks</li>
+                <li>Terms of use</li>
+                <li>Privacy Data Management</li>
+              </ul>
+            </div>
+            <div>
+              <ul className="copy-right">
+                <li>Contact us</li>
+                <li>Feedback</li>
+                <li>Sitemap</li>
+                <li>
+                  <span>© Microsoft 2022</span>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <ul className="copy-right">
-              <li>Contact us</li>
-              <li>Feedback</li>
-              <li>Sitemap</li>
-              <li><span>© Microsoft 2022</span></li>
-
-            </ul>
-          </div>
-          </div>
-          </div>
+        </div>
       </div>
     </div>
   );

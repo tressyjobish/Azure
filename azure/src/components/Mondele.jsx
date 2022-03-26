@@ -6,9 +6,9 @@ function Mondele() {
     <div className="mondelez-img">
       <div className="mondelez-text">
         <div className="mon-info">
-          <p>To bring fans deeper into the game,NBA CourtOptix uses Azure</p>
-          <p>machine learning and AI solution to provide on-screen analysis</p>
-          of every shot,pass and play.
+          <p>To bring fans deeper into the game,NBA CourtOptix uses Azure
+          machine learning and AI solution to provide on-screen analysis
+          of every shot,pass and play.</p>
           <h5>Case study</h5>
         </div>
       </div>

@@ -15,11 +15,12 @@
  margin-left: 5rem;
   background-color: #fff;
   border: none;
-  border-bottom: 3px solid transparent;
+  border-bottom: 1px solid;
   border-bottom-color:#0078d4;
 }
 .button-img1:hover {
   background-color: #eaebec;
+  border:transparent;
   
 }
 .button-imgs{
@@ -30,9 +31,7 @@
 
 }
 .button-imgs:hover{
-  border: 3px solid black;
-  text-decoration: underline;
-  /* border-bottom-color:#0078d4; */
+   text-decoration: underline;
   background-color:#eaebec;
 
 }
@@ -46,7 +45,6 @@
 }
 .azureinnovation-text {
   color: #f4f5f6;
-
   height: 7rem;
   display: flex;
   padding: 30rem;
@@ -92,6 +90,5 @@
 .dropdown-cont {
   background-color: #f4f5f6;
   width: 200rem;
-
-  top: 1.9em;
+   top: 1.9em;
 }

@@ -1,18 +1,14 @@
 .container {
   padding-left: 9rem;
   background-color: #f4f5f6;
-  margin-top: 4rem;
+  margin-top: 4rem; 
 }
 .row {
-  padding-top: 5rem;
+   padding-top: 5rem; 
   height: 3rem;
   display: flex;
-
   align-items: center;
-
-
 }
-
 .footer-btn {
   width: 14rem;
   height: 3rem;
@@ -31,8 +27,8 @@
 }
 .main-column {
   display: flex;
-  margin-left: 8rem;
-  margin-top: 2rem;
+   margin-left: 8rem;
+  margin-top: 2rem; 
 }
 .english {
   height: 2rem;
@@ -55,8 +51,11 @@
   text-decoration: underline;
 }
 .footer-button {
-  margin-left: 12rem;
+  padding-left:12rem; 
+  /* padding-top: 6rem; 
+   */
 }
+
 .footer-info h5 {
   line-height: 1.3rem;
   color: #1a1a1f;
@@ -70,25 +69,28 @@
   text-align: start;
 }
 .footer-link {
-  margin: 2rem;
+  padding:1rem; 
 }
 
 .footer-link ul {
   font-size: x-small;
 }
-
 .footer-li {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  margin-right: 18rem;
+   margin-right: 18rem; 
 }
 .copy-right {
   display: flex;
   font-size: x-small;
   gap: 1rem;
   justify-content: center;
-  padding-left: 42rem;
+  /* padding-left: 42rem; */
+}
+.footer-content{
+padding-left: 3rem;
+
 }
 .footer-content li:hover {
   text-decoration: underline;
@@ -103,3 +105,4 @@
   gap: 2rem;
   padding: 1rem;
 }
+

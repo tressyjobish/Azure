@@ -2,54 +2,44 @@ import React from "react";
 import "../styles/Resources.css";
 function Resources() {
   return (
-    <div className="resources">
-      <div className="resources-row2">
-        <div>
-          <h5>Learning</h5>
-        </div>
-        <div>
-          <p>Get Started with Azure</p>
-        </div>
-        <div>
-          <p>Training and certifiaction</p>
-        </div>
-        <div>
-          <p>Customer stories</p>
-          <p>Analyst report,while papers and e-book</p>
-        </div>
-        <div>
-          <p>Cloud economics</p>
-          <p>Learn more about cloud computing</p>
-        </div>
-      </div>
+    <div className="resources-conatiner">
+      <div className="resource-item">
+        <ul>
+          <h4>Learning</h4>
 
-      <div className="resources-coloum">
-        <div className="resources-row2">
-          <h5>Technical resources</h5>
-          <p>Documentation</p>
-          <p>Developer resources</p>
-          <p>Quickstart templates</p>
-        </div>
-        </div>
-
-        <div className="resources-row2">
-          <div className="re-sor">
-            <h5>Community</h5>
-            <p>Developer community</p>
-            <p>Students</p>
-            <p>Developer stories</p>
-          </div>
-        </div>
-        <div className="resources-row2">
-          <div className="re-sor">
-            <h5>What's News</h5>
-            <p>Developer community</p>
-            <p>Students</p>
-            <p>Developer stories</p>
-          </div>
-        </div>
+          <li>Get started with Azure</li>
+          <li>Traning and certification</li>
+          <li>Customer stories</li>
+          <li>Analyst report,white paper and e book</li>
+          <li>Videos</li>
+          <li>Learn more about cloud computing</li>
+        </ul>
       </div>
-    
+      <div className="resource-item">
+        <ul>
+          <h4>Technical resources</h4>
+          <li>Documention</li>
+          <li>Developer resources</li>
+          <li>Quickstart templates</li>
+        </ul>
+      </div>
+      <div className="resource-item">
+        <ul>
+          <h4>Community</h4>
+          <li>Developer community</li>
+          <li>Student</li>
+          <li>Developer stories</li>
+        </ul>
+      </div>
+      <div className="resource-item">
+        <ul>
+          <h4>Community</h4>
+          <li>Developer community</li>
+          <li>Student</li>
+          <li>Developer stories</li>
+        </ul>
+      </div>
+    </div>
   );
 }
 

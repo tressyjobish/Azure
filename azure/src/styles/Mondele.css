@@ -2,7 +2,7 @@
   background: url("https://azurecomcdn.azureedge.net/cvt-3a0af14d818e4762dbc7d778aa89aafe2448b9ae7b54dadfa2dfdfdf72975bf8/images/page/home/customer-tabs/mondelez-mobile.webp");
   height: 80vh;
   background-size: cover;
-  width: 70%;
+  width: 60%;
 }
 .mondelez-text {
   color: #f4f5f6;
@@ -10,18 +10,25 @@
   height: 7rem;
   display: flex;
   padding: 30rem;
-  padding-left: 2rem;
+  padding-bottom: 3rem;
+  text-align: start;
+  
 }
 .mon-info {
+  width: 39rem;
   background-color: #1a1a1ff0;
-  height: 8rem;
-  width: 40rem;
+  height: 9rem;
+  padding-top: 2rem;
   font-size: 18px;
   font-weight: 40rem;
-  text-align: center;
+  text-align: start;
   line-height: 2rem;
+  
+  
+  
 }
 .mon-info h5 {
-  margin-right: 26rem;
+  align-items: center;
+  margin-left:1rem;
   text-decoration: underline;
 }

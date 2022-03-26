@@ -4,6 +4,7 @@
   padding-top: 4rem;
   background-size: cover;
   display: flex;
+  background-position:50% 50%;
 }
 .prediscover-img {
   color: #f4f5f6;
@@ -11,12 +12,12 @@
   justify-content: center;
   text-align: center;
   display: flex;
-  padding: 20rem;
+  padding: 21rem;
 }
 
 .prediscover-info {
   background-color: #1a1a1ff0;
-  height: 14rem;
+  height: 13rem;
   width: 43rem;
   font-size: 15px;
   font-weight: 40rem;

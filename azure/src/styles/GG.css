@@ -14,15 +14,16 @@
 }
 .gg-info {
   background-color: #1a1a1ff0;
-  height: 8rem;
-  width: 42rem;
+  height: 9rem;
+  width: 40rem;
   font-size: 18px;
   font-weight: 40rem;
-  text-align: center;
+  text-align: start;
   line-height: 2rem;
   margin-left: 4rem;
+  padding-top: 1rem;
 }
 .gg-info h5 {
-  margin-right: 24rem;
+  margin-left: 1rem;
   text-decoration: underline;
 }
