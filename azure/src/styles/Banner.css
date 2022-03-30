@@ -1,9 +1,8 @@
 .heading h3 {
-  margin-top: 5px;
+  margin-top: 1px;
   background-color: #0078d4;
-  height: 50px;
+  height: 40px;
   text-align: center;
-  padding: 1rem;
   color: white;
   font-size: 14px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -17,6 +16,7 @@
   height:72vh;
   background-size: cover;
   margin-top: 6px;
+  background-position: 49% 42%;
 }
 @media only screen and (max-width:500px) {
   .banner{
@@ -26,26 +26,30 @@
   
 }
 .text {
-  padding: 5rem 20rem;
+  padding: 3rem 20rem;
   
 }
 .pre-heading1 {
   color: #50e6ff;
   line-height: 2rem;
-  font-size:12px;
+  font-size:13px;
 }
 .pre-heading2 {
   color: white;
-  font-size: 25px;
+  font-size:1.8rem; 
+
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 2rem;
 }
 .pre-para p {
+  margin-top:-1rem;
   color: white;
   font: size 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1rem;
-}
+  padding:1rem; 
+  margin-right: 1rem;
+  
+} 
 .btn2 {
   color: black;
   border: 1px solid #6f9e02;
@@ -54,7 +58,7 @@
   font-size: 14px;
   padding: 1rem;
   display: inline-block;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 .btn2:hover {
   text-decoration: underline;

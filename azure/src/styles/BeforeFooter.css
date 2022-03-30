@@ -28,6 +28,8 @@
 }
 .beforefooter-card1 h2 {
   margin-left: 1rem;
+  font-weight: 600;
+
 }
 .beforefooter-card1 img {
   width: 5rem;
@@ -44,6 +46,7 @@
 }
 .beforefooter-card2 h2 {
   margin-left: 1rem;
+  font-weight: 600;
 }
 
 .beforefooter-card2 img {
@@ -70,4 +73,5 @@
 }
 .beforefooter-card3 h2 {
   padding-left: 1rem;
+  font-weight:800;
 }

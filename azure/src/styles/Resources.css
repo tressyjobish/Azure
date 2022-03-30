@@ -14,11 +14,14 @@
 }
 
 .resource-item h4 {
+  font-size: 13px;
   font-weight: 600;
   padding-bottom: 1rem;
 }
 
 .resource-item ul {
+  line-height: 2rem;
+  font-size: 10px;
   display: flex;
   flex-direction: column;
 }

@@ -41,7 +41,7 @@ function Navbar() {
             </li>
             <div className="navbar-option">
               <button className="navbtn" onClick={() => handleDropdownClick("explore")}>
-                Explore <RiArrowDropDownLine />
+                Explore <RiArrowDropDownLine/>
               </button>
               <div className="dropdown-content" style={{ display: activeDropdown === "explore" ? "block" : "none" }}>
                 <Explore />

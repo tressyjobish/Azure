@@ -33,10 +33,10 @@ function Resources() {
       </div>
       <div className="resource-item">
         <ul>
-          <h4>Community</h4>
-          <li>Developer community</li>
-          <li>Student</li>
-          <li>Developer stories</li>
+          <h4>What's News</h4>
+          <li>UpDates</li>
+          <li>Blogs</li>
+          <li>Developer </li>
         </ul>
       </div>
     </div>

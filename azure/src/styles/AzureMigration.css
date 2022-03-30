@@ -4,11 +4,10 @@
   align-items: center;
   margin-top: 3rem;
 }
-@media screen and (max-width:800px){
-  .azuremigration{
-    width:100% ;
+@media screen and (max-width: 800px) {
+  .azuremigration {
+    width: 100%;
   }
-  
 }
 
 .azuremigration img {
@@ -26,7 +25,6 @@
   line-height: 4rem;
 }
 .migration-text {
-  font-size: 26px;
   margin-top: 3rem;
   line-height: 5rem;
 }
@@ -36,15 +34,16 @@
   margin: 0 0 7px;
   font-size: 36px;
   text-align: start;
+  font-weight: 900;
 }
 
 .migration-btn {
   color: #0062ad;
   border: 1px solid #0078d4;
   background-color: #ffff;
-  
+
   padding: 16px 16px;
-  margin-right:19rem;
+  margin-right: 21rem;
   font-weight: 800;
 }
 .migration-btn:hover {

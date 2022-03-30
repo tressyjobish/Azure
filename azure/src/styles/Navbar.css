@@ -104,6 +104,7 @@ a {
   text-decoration: underline;
 }
 .navbtn {
+  
   border: none;
   background-color: #fff;
   margin-left: 1rem;
@@ -139,4 +140,7 @@ input {
   font-size: 12px;
   display: inline-block;
   font-weight: 600;
+}
+.drop-up{
+  transform: rotate(180deg);
 }

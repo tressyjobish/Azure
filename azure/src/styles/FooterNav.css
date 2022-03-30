@@ -51,7 +51,10 @@
   text-decoration: underline;
 }
 .footer-button {
-  padding-left:12rem; 
+  margin-top: 2rem;
+  padding-left:11rem; 
+  display: flex;
+  
   /* padding-top: 6rem; 
    */
 }
@@ -86,10 +89,10 @@
   font-size: x-small;
   gap: 1rem;
   justify-content: center;
-  /* padding-left: 42rem; */
+   /* padding-left: 42rem;  */
 }
 .footer-content{
-padding-left: 3rem;
+padding-left: 25rem;
 
 }
 .footer-content li:hover {

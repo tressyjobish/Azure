@@ -103,12 +103,14 @@ function AzureService({ paragraph, heading, cardStyle, imgStyle,headingStyle }) 
             })}
           </div>
         </div>
+        <div>
         <div className="azure-portal">
           <img src={Featured} />
           <h5>
             View Azure Portal<br></br>Screnshot in fullscreen
           </h5>
         </div>
+      </div>
       </div>
     </div>
   );
